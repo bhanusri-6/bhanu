@@ -1,0 +1,471 @@
+.nav_bar{
+    background-color: rgb(27, 27, 75);
+}
+.logo img{
+    height: 81px;
+    width: 234px;
+    object-fit: cover;
+}
+.nav_details ul{
+    display: flex;
+    align-items: center;
+    margin: 0px 20px;
+    padding: 10px 0px;
+}
+.nav_details li{
+    list-style-type: none;
+    padding: 0px 15px;
+}
+.nav_details a{
+    text-decoration: none;
+    color: white;
+}
+.nav_details a:hover{
+    color: #0580a8;
+}
+.button_appoint button{
+    border: 1px solid #0580a8;
+    padding: 12px;
+    background-color: white;
+    color: rgb(17, 72, 189);
+    border-radius: 5px;
+}
+.surgery{
+    background-image: url(../images/surgery.bg.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: left;
+    padding: 100px 0px;
+}
+.medical{
+    color: white;
+    padding-left: 60px;
+    padding-top: 40px;
+}
+.medical p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.medical h1{
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.medical h1 span{
+    font-size: 48px;
+    font-weight: 400;
+    font-family: system-ui;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+.medical button{
+    border: 1px solid white;
+    background: none;
+    color: white;
+    padding: 12px;
+    width: 200px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.doctor-image{
+    padding: 70px 0px;
+}
+.doctor_image{
+    text-align: center;
+    position: relative;
+}
+.doctor_image img{
+    width: 50%;
+    height: 370px;
+    object-fit: contain;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px wheat;
+}
+.background_color{
+    width: 50%;
+    height: 360px;
+    position: absolute;
+    background-color: #6fe4e4;
+    top: 26px;
+    border-radius: 2px;
+    z-index: -1;
+    left: 114px;
+    opacity: 0.2;
+}
+.about-doctor h3{
+    font-weight: 12;
+    font-size: 35px;
+}
+.about-doctor h1{
+    font-weight: 750;
+    margin-bottom: 30px;
+}
+.about-doctor p{
+    padding-inline-end: 140px;
+    font-size: 16px;
+    color: dimgrey;
+}
+.about-doctor ul{
+    padding: 0px;
+    list-style-type: none;
+    line-height: 35px;
+}
+.about-doctor li i{
+    padding-right: 10px;
+    color: rgb(18, 104, 165);
+}
+.about-doctor button{
+    border: 0px;
+    padding: 8px;
+    width: 120px;
+    border-radius: 6px;
+    color: white;
+    background: linear-gradient(90deg, rgba(40,133,198,1) 0%, rgba(27,31,146,1) 100%);
+}
+.department{
+    margin: 0px 50px;
+    position: relative;
+    padding: 40px 0px;
+    background-image: url(../images/dentist-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.department::before{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    opacity: 0.9;
+    top: 0;
+}
+.depart{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.depart h1{
+    font-size: 30px;
+}
+.depart p{
+    padding-inline-end: 200px;
+}
+.depart button{
+    border: 1px solid rgb(27, 93, 181);
+    color: rgb(27, 93, 181);
+    background: none;
+    width: 120px;
+    padding: 7px;
+}
+.dentist_bg{
+    position: relative;
+}
+.dept{
+    border: 1px solid lightblue;
+    text-align: center;
+}
+.dept img{
+    width: 50%;
+    height: 100px;
+    object-fit: contain;
+}
+.dept p{
+    text-align: center;
+    color: rgb(8, 36, 128);
+    font-size: 12px;
+    font-weight: 550;
+}
+.dentist{
+    display: flex;
+    margin: 20px 0px;
+    padding: 40px 0px;
+    justify-content: center
+}
+.dentist-img img{
+    width: 100%;
+    height: 100%;
+}
+.about-dentist{
+    background-color: #fff;
+    padding: 50px;
+}
+.dentist h2{
+    font-size: 22px;
+    font-weight: 550;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+.dentist p{
+    padding-inline-end: 73px;
+    margin-bottom:20px;
+}
+.dentist button{
+    border: 1px solid rgb(33, 80, 222);
+    padding: 9px;
+    color: rgb(33, 80, 222);
+    border-radius: 5px;
+}
+.doctors{
+    padding: 60px 0px;
+}
+.doctor_services{
+    text-align: center;
+}
+.doctor_services h1{
+    padding:  10px 0px 0px;
+}
+.doctor_services p{
+    padding: 0px 0px 9px;
+}
+.doctor-1 img{
+    box-shadow: 0px 0px 3px lightgray;
+    border-radius: 5px;
+    width: 100%;
+}
+.doctor-1 h3{
+    text-align: center;
+    color: rgb(22, 70, 202);
+}
+.doctor-1 p{
+    text-align: center;
+    color: rgb(22, 70, 202);
+}
+.name{
+    margin: 5px 0px;
+    padding: 20px 0px;
+}
+.media ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+.media ul i{
+    padding: 0px 20px;
+    color: rgb(122, 202, 229);
+}
+.appointment{
+    padding: 40px 0px;
+}
+.stetho-bg{
+    background-image: url(../images/stethoscope-bg.jpg);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.appoint_form{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    background-color: #fff;
+    box-shadow:  0px 0px 3px lightgray;
+    padding: 35px;
+    width: 600px;
+    height: 425px;
+}
+.appoint_form p{
+    font-size: 24px;
+    span{
+        font-size: 30px;
+        font-weight: 500;
+    }
+}
+.appoint_form select{
+    padding: 7px;
+    width: 100%;
+    margin: 0px 0px 17px;
+    border-radius: 5px;
+    border: 1px solid lightslategray;
+}
+.appoint_form input{
+    border-radius: 5px;
+    border: 1px solid lightslategray;
+}
+.ur-name{
+    width: 69%;
+    padding: 8px;
+}
+.age{
+    width: 25%;
+    padding: 8px;
+    margin-left: 20px;
+}
+.phone{
+    padding: 7px;
+    width: 47%;
+}
+.mail{
+    padding: 7px;
+    width: 47%;
+    margin-left: 20px;
+}
+.date{
+    padding: 7px;
+    width: 47%;
+}
+.time{
+    padding: 7px;
+    width: 47%;
+    margin-left: 20px;  
+}
+.appoint_form button{
+    width: 100%;
+    padding: 9px;
+    border: 0px;
+    background: linear-gradient(90deg, rgba(40,133,198,1) 0%, rgba(27,31,146,1) 100%);
+    color: #fff;
+    border-radius: 6px;
+}
+.qua-health{
+    padding: 20px 0px 87px;
+    margin: 5px 0px;
+}
+.quality{
+    padding: 40px 0px;
+    text-align: center;
+}
+.quality h2{
+    margin-bottom: 9px;
+    font-size: 28px;
+}
+.quality p{
+    color: grey;
+}
+.health img{
+    width: 15%;
+    border-radius: 50%;
+    padding: 8px;
+    box-shadow: 0px 0px 4px #0580a8;
+}
+.source h4{
+    font-size: 25px;
+    font-weight: 430;
+}
+.source p{
+    padding-inline: 82px;
+}
+.source{
+    margin: 10px 0px;
+    padding: 20px 0px;
+}
+.booking{
+    background-image: url(../images/img-1.jpg);
+    width: 100%;
+    height: 320px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.booking::before{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: rgb(38, 166, 208);
+    opacity: 0.7;
+}
+.appoint-ment{
+    text-align: justify;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    top: 30%;
+    left: 25%;
+}
+.appoint-ment p{
+    margin-bottom: 10px;
+}
+.appoint-ment h3{
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+.appoint-ment button{
+    border: 1px solid white;
+    background:none;
+    color: white;
+    padding: 6px;
+    border-radius: 7px;
+    width: 180px;
+}
+.call{
+    background-image: url(../images/img-2.jpg);
+    width: 100%;
+    height: 320px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.call::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 27, 183);
+    opacity: 0.7;
+}
+.emergency{
+    text-align: center;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    top: 30%;
+}
+.emergency p{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.emergency h3{
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+.emergency img{
+    height: 90px;
+    position: absolute;
+    object-fit: contain;
+    right: 73%;
+    top: 4%;
+}
+.foot{
+    background-color: rgb(25, 25, 59);
+    padding: 60px 50px;
+    color: grey;
+}
+.foot1 img {
+    height: 83px;
+    width: 230px;
+    object-fit: cover;
+    position: relative;
+    left: -52px;
+}
+.foot1 ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+}
+.foot1 li{
+    padding: 0px 12px;
+}
+.foot2 p{
+    color: #fff;
+    font-size: 25px;
+}
+.row1 ul{
+    list-style-type: none;
+    padding: 0px;
+}
+.row1 li{
+    line-height: 30px;
+}
+.copyright{
+    border-top: 1px solid grey;
+    color: grey;
+    background-color: rgb(25, 25, 59);
+    padding: 20px;
+    a{
+        text-decoration: none;
+    }
+}

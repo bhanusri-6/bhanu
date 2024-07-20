@@ -1,0 +1,332 @@
+
+@media only screen  and (max-width:1024px){
+    .appoint_form ::placeholder{
+        font-size: 16px;
+    }
+    .surgery{
+        height: 400px;
+        padding: 0px;
+        display: flex;
+        align-items: center;
+    }
+    .medical h1{
+        font-size: 29px;
+        line-height: 36px;
+        margin-bottom: 12px;
+        span{
+            font-size: 28px;
+            letter-spacing: 1px;
+        }
+    }
+    .medical button{
+        width: 150px;
+        padding: 8px;
+    }
+    .doctor-image{
+        padding: 10px 0px;
+    }
+    .doctor_image img{
+        height: 370px;
+        width: 275px;
+        object-fit: contain;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0px 0px 3px wheat;
+    }
+    .dentist{
+        padding: 20px 0px;
+    }
+    .doctors{
+        padding: 30px 0px;
+    }
+    .doctor-1{
+        text-align: center;
+    }
+    .doctor-1 img{
+        width: 80%;
+    }
+    .name {
+        padding: 8px 0px;
+    }
+    .name h3{
+        font-size: 20px;
+    }
+    .name p{
+        margin-bottom: 4px;
+    }
+
+}
+@media only screen  and (max-width:991px){
+    .doctor_image img{
+        width: 230px;
+        height: 320px;
+    }
+    .dentist{
+        display: block;
+    }
+    .dentist-img{
+        width: 100%;
+    }
+    .about-dentist{
+        width: 100%;
+    }
+    .health{
+        width: 223px;
+    }
+    .doctor_services h1{
+        font-size: 32px;
+    }
+    .about-doctor h3{
+        font-size: 18px;
+    }
+    .about-doctor h1{
+        font-size: 25px;
+    }
+    .about-doctor p{
+        font-size: 15px;
+    }
+    .about-doctor li{
+        font-size: 15px;
+    }
+    .name {
+        padding: 8px 0px;
+    }
+    .name h3{
+        font-size: 15px;
+    }
+    .name p{
+        font-size: 12px;
+        margin-bottom: 4px;
+    }
+    .media ul i{
+        font-size: 12px;
+        padding: 0px 11px;
+    }
+    .appoint_form{
+        width: 70%;
+    }
+    .source h4{
+        font-size: 24px;
+    }
+
+}
+
+@media only screen  and (max-width:896px){
+    .back-photos{
+        display: block;
+        width: 100%;
+    }
+    .book{
+        width: 100%;
+        display: block;
+    }
+}
+
+@media only screen  and (max-width:768px){
+    .toggle{
+        width:40px;
+        padding: 4px;
+        span{
+            width: 18px;
+        }
+    }
+    .source h4{
+        font-size: 24px;
+    }
+    .foot-1 .col-sm-2{
+        width: 50%;
+    }
+    .foot-2 .col-sm-2{
+        width: 50%;
+    }
+    .dept{
+        margin-bottom: 5px;
+    }
+    .dept img{
+        width: 65px;
+        height: 50px;
+    }
+    .dept p{
+        font-size: 8px;
+    }
+    .health{
+        width: 223px;
+        display: contents;
+    }
+    .medical p{
+        font-size: 13px;
+    }
+    .medical h1{
+        font-size: 30px;
+        span{
+            font-size: 26px;
+        }
+    }
+    .medical button{
+        width: 120px;
+        font-size: 12px;
+    }
+}
+@media only screen  and (max-width:576px){
+    .dept{
+        margin-bottom: 5px;
+    }
+    .depart p{
+        font-size: 12px;
+    }
+    .depart button{    
+        width: 90px;
+        font-size: 12px;
+    }
+    .dentist_bg .row{
+        .col-md-2{
+            width: 50%;
+        }
+    }
+    .doctor-1 img{
+        width: 50%;
+    }
+}
+@media only screen  and (max-width:549px){
+    .col-sm-6{
+        width: 100%;
+    }
+}
+@media only screen  and (max-width:376px){
+    .body{
+        font-size: 11px;
+    }
+    .appoint_form p{
+        font-size: 15px;
+        span{
+            font-size: 18px;
+        }
+    }
+    .foot-1 .col-sm-2{
+        width: 50%;
+    }
+    .foot-2 .col-sm-2{
+        width: 50%;
+    }
+}
+@media only screen  and (max-width:345px){
+    .medical p{
+        font-size: 20px;
+    }
+}
+@media only screen  and (max-width:351px){
+    .emergency img{
+        width: 60px;    
+        padding-right: 9px;
+        object-fit: cover;
+    }
+    .emergency h3{
+        font-size: 18px;
+    }
+    .emergency p{
+        font-size: 12px;
+    }
+    .booking{
+        font-size:12px;
+        h3{
+            font-size: 18px;
+        }
+    }
+}
+@media only screen  and (max-width:320px){
+    body{
+        font-size: 12px;
+    }
+    .logo img{
+        height: 30px;
+        width: 135px;
+    }
+    .toggle {
+        width: 32px;
+        height: 30px;
+        padding: 0px;
+        span{
+            font-size: 7px;
+            padding: 13px 0px;
+        }
+    }
+    .surgery{
+        padding: 20px;
+        height: 300px;
+        background-size: cover;
+    }
+    .medical{
+        text-align: justify;
+    }
+    .medical p{
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    .medical h1{
+        font-size: 18px;
+        margin-bottom: 9px;
+        span{
+            word-spacing: 0px;
+            font-size: 20px;
+            letter-spacing: 0px;
+        }
+    }
+    .medical button{
+        width: 100px;
+        padding: 5px;
+    }
+    .doctor_image img{
+        width: 190px;
+        height: 270px;
+    }
+    .about-doctor{
+        margin: 10px 0px 0px;
+        padding: 20px 0px 0px;
+    }
+    .about-doctor li{        
+        font-size: 11px;
+    }
+    .depart p{
+        font-size: 10px;
+    }
+    .depart button{
+        width: 70px;
+        padding: 3px;
+    }
+    .appoint_form p{
+        font-size: 15px;
+        span{
+            font-size: 18px;
+        }
+    }
+    .about-doctor p{
+        font-size: 12px;
+    }
+    .about-doctor h3{
+        font-size: 17px;
+    }
+    .about-doctor h1{
+        font-size: 20px;
+    }
+    .depart h1{
+        font-size: 16px;
+    }
+    .about-dentist h2{
+        font-size: 16px;
+    }
+    .doctor_services h1{
+        font-size: 16px;
+    }
+    .qua-health h2{
+        font-size: 16px;
+    }
+    .source h4{
+        font-size: 17px;
+    }
+    .booking{
+        height: 170px;
+    }
+    .call{
+        height: 170px;
+    }
+}

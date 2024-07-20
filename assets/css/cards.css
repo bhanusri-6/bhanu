@@ -1,0 +1,424 @@
+.demo{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.first{
+    width: 300px;
+    margin: 20px;
+    border: 1px solid;
+    border-radius: 20px 5px;
+    overflow: hidden;
+}
+.one{
+    height: 85px;
+    padding: 10px;
+    background-color: rgb(9, 164, 203);
+    color: aliceblue;
+    text-align: center;
+}
+.second{
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+.img img{
+    position: absolute;
+    top: -40px;
+    left: 110px;
+    border-radius: 50px;
+}
+.person{
+    margin: 10px;
+    padding: 10px;
+}
+.person h3{
+    font-size: 20px;
+    margin: 5PX;
+    font-style: italic;
+}
+.person p{
+    font-family: serif;
+    padding: 11px;
+}
+.icon ul{
+    list-style-type: none;
+    display: flex;
+    margin:0px 25px;
+    padding: 0px;
+    justify-content: center;
+}
+.icon ul{
+    li{
+        margin: 0px 10px;
+    }
+}
+.one1{
+    height: 85px;
+    padding: 10px;
+    background-color: rgba(63, 86, 162, 0.819);
+    color: aliceblue;
+    text-align: center;
+}
+.person1{
+    margin: 10px;
+    padding: 10px;
+}
+.person1 h3{
+    font-size: 20px;
+    margin: 5PX;
+    font-style: italic;
+}
+.person1 p{
+    font-family: serif;
+    padding: 11px;
+}
+.secondd{
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+.one2{
+    height: 85px;
+    padding: 10px;
+    background-color: rgba(156, 156, 238, 0.996);
+    color: aliceblue;
+    text-align: center;
+}
+.person2{
+    margin: 10px;
+    padding: 10px;
+}
+.person2 h3{
+    font-size: 20px;
+    margin: 5PX;
+    font-style: italic;
+}
+.person2 p{
+    font-family: serif;
+    padding: 11px;
+}
+.second2{
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+.one3{
+    height: 85px;
+    padding: 10px;
+    background-color: rgba(53, 123, 228, 0.819);
+    color: aliceblue;
+    text-align: center;
+}
+.person3{
+    margin: 10px;
+    padding: 10px;
+}
+.person3 h3{
+    font-size: 20px;
+    margin: 5PX;
+    font-style: italic;
+}
+.person3 p{
+    font-family: serif;
+    padding: 11px;
+}
+.second3{
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+
+
+.demo2{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.one4{
+    height: 85px;
+    padding: 10px;
+    background-color: rgb(124, 187, 230);
+    color: aliceblue;
+    text-align: center;
+}
+.person4{
+    margin: 10px;
+    padding: 10px;
+}
+.person4 h3{
+    font-size: 20px;
+    margin: 5PX;
+    font-style: italic;
+}
+.person4 p{
+    font-family: serif;
+    padding: 11px;
+}
+.second4{
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+.one5{
+    height: 85px;
+    padding: 10px;
+    background-color: rgba(191, 72, 124, 0.819);
+    color: aliceblue;
+    text-align: center;
+}
+
+.person5{
+    margin: 10px;
+    padding: 10px;
+}
+.person5 h3{
+    font-size: 20px;
+    margin: 5PX;
+    font-style: italic;
+}
+.person5 p{
+    font-family: serif;
+    padding: 11px;
+}
+.second5{
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+.one6{
+    height: 85px;
+    padding: 10px;
+    background-color: rgba(235, 204, 51, 0.914);
+    color: aliceblue;
+    text-align: center;
+}
+.person6{
+    margin: 10px;
+    padding: 10px;
+}
+.person6 h3{
+    font-size: 20px;
+    margin: 5PX;
+    font-style: italic;
+}
+.person6 p{
+    font-family: serif;
+    padding: 11px;
+}
+.second6{
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+.one7{
+    height: 85px;
+    padding: 10px;
+    background-color: rgb(244, 129, 129);
+    color: aliceblue;
+    text-align: center;
+}
+.person7{
+    margin: 10px;
+    padding: 10px;
+}
+.person7 h3{
+    font-size: 20px;
+    margin: 5PX;
+    font-style: italic;
+}
+.person7 p{
+    font-family: serif;
+    padding: 11px;
+}
+.second7{
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+
+
+
+
+
+
+.form{
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border: 1px solid white;
+    text-align: center;
+    width: 300px;
+    height: 355px;
+    padding: 25px;
+    border-radius: 6px;
+    background-color: white;
+}
+.sub h1{
+    margin: 0px;
+
+}
+.sub1{
+    display: flex;
+    justify-content: center;
+}
+.sub1 p{
+    margin: 0px;
+    margin-left: 4px;
+    color: rgb(232, 16, 120);
+    cursor: pointer;
+}
+.sub1 h4{
+    margin: 0px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(235, 226, 226);
+    padding: 10px;
+    border-radius: 4px;
+    width: 110px;
+    cursor: pointer;
+}
+.sub3 p{
+    text-align: justify;
+    margin-left: 24px;
+    color: rgb(232, 16, 120);
+    cursor: pointer;
+}
+.sub2{
+    background-color: rgb(187, 27, 53);
+    width: 260px ;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    border: rgb(187, 27, 53);
+    cursor: pointer;
+}
+
+.act{
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border: 1px solid white;
+    text-align: center;
+    width: 1000px;
+    padding: 25px;
+    border-radius: 6px;
+    background-color: white;
+}
+.act1 h1{
+    text-align:left;
+    margin-left: 93px;
+
+}
+.act11 p{
+    text-align: left;
+    margin-left: 95px;
+    font-size: large;
+    font-weight: bold;
+    font-family: monospace;
+    color: rgb(105, 100, 100);
+}
+.act12 p{
+    text-align: left;
+    margin-left: 95px;
+    font-size: large;
+    font-weight: bold;
+    font-family: monospace;
+    color: rgb(105, 100, 100);
+}
+.act2{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+
+}
+.arrow{
+    text-align: left;
+    margin-top: 25px;
+}
+.arrow button{
+    width: 186px;
+    padding: 9px 23px;
+    background-color: blue;
+    color: white;
+    margin-left: 89px;
+    border-radius: 3px;
+    cursor: pointer; 
+    text-align: center;
+}
+.arrow i{
+    position: relative;
+    right: 65px;
+    color: white;
+    font-weight: lighter;
+}
+
+
+.form1{
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border: 1px solid white;
+    text-align: center;
+    width: 350px;
+    height: 580px;
+    padding: 50px;
+    border-radius: 6px;
+    background-color: white;
+}
+.team h1{
+    margin: 0px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.team1 p{
+    margin: 0px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+.team1 h4{
+    margin: 0px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(235, 226, 226);
+    padding: 10px;
+    border-radius: 4px;
+    width: 110px;
+    cursor: pointer;
+}
+.team3 label{
+    margin-right: 219px;
+    font-size: large;
+    font-weight: bold;
+    color: grey;
+
+}
+.team3 p{
+    text-align: right;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    margin-right: 3px;
+    position: relative;
+}
+.team2{
+    background-color: rgb(187, 27, 53);
+    width: 340px ;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: rgb(187, 27, 53);
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+.doll{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+
+

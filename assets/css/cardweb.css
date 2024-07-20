@@ -1,0 +1,103 @@
+.bg-color{
+    background-color: rgb(23, 23, 65);
+    padding: 20px 0px;
+}
+.logo{
+    text-align: center;
+    padding: 70px 0px;
+}
+.logo img{
+    width: 340px;
+}
+.card-1{
+    padding: 20px 0px;
+    background-color: #faf8fc;
+    overflow: hidden;
+    border-radius: 6px;
+}
+.content-1 p{
+    background: linear-gradient(90deg, rgba(13, 16, 78, 1) 54%, rgba(40, 133, 198, 1) 100%);
+    color: white;
+    width: 140px;
+    text-align: center;
+    padding: 6px;
+    border-radius: 0px 5px 5px 0px;
+}
+.content1{
+    padding: 20px 0px;
+}
+.content-1 h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+.content-1 h1{
+    text-align: center;
+    color: orange;
+}
+.content-2 p{
+    background: linear-gradient(90deg, rgba(13, 16, 78, 1) 54%, rgba(40, 133, 198, 1) 100%);
+    color: white;
+    width: 140px;
+    text-align: center;
+    padding: 6px;
+    border-radius: 0px 5px 5px 0px;
+}
+.content-2 h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+.content-2 h1{
+    text-align: center;
+    color: orange;
+}
+.fields{
+    padding: 20px 0px 90px;
+}
+.fields p{
+    border: 1px solid rgb(3, 77, 188);
+    color: rgb(3, 77, 188);
+    padding: 3px;
+    text-align: center;
+    border-radius: 0px 5px 5px 0px;
+    border-left: 0px;
+}
+.content-3 p{
+    background: linear-gradient(90deg, rgba(13, 16, 78, 1) 54%, rgba(40, 133, 198, 1) 100%);
+    color: white;
+    width: 140px;
+    text-align: center;
+    padding: 6px;
+    border-radius: 0px 5px 5px 0px;
+}
+.content-3 h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+.content-3 h1{
+    text-align: center;
+    color: orange;
+}
+.bg-bg img{
+    height: 198px;
+    width: 100%;
+    object-fit: cover;
+}
+.bg-bg{
+    position: relative;
+    left: 13px;
+}
+.bg-image{
+    position: relative;
+}
+.bg-image img{
+    height: 198px;
+    position: absolute;
+    bottom: -20px;
+    right: 0px;
+}
+.card-1.card-2{
+    background-color: #fff !important;
+}

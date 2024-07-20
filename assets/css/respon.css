@@ -1,0 +1,405 @@
+@media only screen and (max-width:1200px){
+    .girl-bg img {
+        width: 95%;
+        position: relative;
+        left: 43px;
+        top: -15px;
+    }
+    .girl img{
+        left: 43px;
+        top: 25px;
+    }
+    .acdetails-card{
+        width: 65%;
+    }
+    .heading p{
+        font-size: 10px;
+        margin-top: 6px;
+    }
+    .mini-card span{
+        font-size: 10px;
+    }
+    .color1{
+        padding: 3px;
+    }
+    .color2{
+        padding: 3px;
+    }
+    .mini-card h5{
+        font-size: 12px;
+        span{
+            font-size: 10px;
+        }
+    }
+    .account-details{
+        background-size: cover;
+        background-position: center;
+    }
+    .account-details h2{
+        font-size: 37px;
+    }
+    .mic-voice{
+        width: 251px;
+    }
+    .mic-content h3{
+        font-size: 37px;
+    }
+    .mic-content h1{
+        font-size: 25px;
+        span{
+            font-size: 45px;
+        }
+    }
+    .mic-content p{
+        font-size: 13px;
+    }
+    .card-head h1{
+        font-size: 64px;
+    }
+    .card-headh2{
+        font-size: 64px;
+    }
+    .img-div{
+        width: 120px;
+        height: 120px;
+    }
+    .exp{
+        width: 220px;
+    }
+    .card h3{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .card p{
+        font-size: 14px;
+    }
+    .register h1{
+        font-size: 32px;
+    }
+    .register p{
+        font-size: 12px;
+    }
+    .login-details li{
+        font-size: 22px;
+    }
+    .login-details i{
+        width: 30px;
+        height: 30px;
+        align-items: center;
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width:992px){
+    .flexible h2{
+        font-size: 40px;
+    }
+    .flexible p{
+        font-size: 13px;
+    }
+    .card-head{
+        font-size: 16px;
+    }
+    .card-head h1{
+        font-size: 59px;
+    }
+    .card-head h2{
+        font-size: 59px;
+    }
+    .account-details h2{
+        font-size: 32px;
+    }
+    .mic-content h3{
+        font-size: 28px;
+    }
+    .mic-content p{
+        font-size: 11px;
+    }
+    .mic-content ul{
+        padding-left: 47px;
+    }
+    .mic-content h1{
+        font-size: 30px;
+        span{
+            font-size: 45px;
+        }
+    }
+    .card{
+        width: 100%;
+    }
+    .card img{
+        width: 92%;
+    }
+    .img-div{
+        width: 100px;
+        height: 100px;
+    }
+    .exp{
+        width: 180px;
+    }
+    .card h3{
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .card p{
+        font-size: 11px;
+    }
+    .register h1{
+        font-size: 28px;
+    }
+    .acdetails-card{
+        width: 80%;
+    }
+    .girl-bg img{
+        left: 46px;
+    }
+    .girl img {
+        top: 25px;
+        width: 100%;
+        left: 22px;
+    }
+}
+@media only screen and (max-width:768px){
+    .calendar {
+        text-align: center;
+    }
+    .instant-money{
+        padding: 65px 0px;
+    }
+    .mic-content h3{
+        font-size: 32px;
+    }
+    .mic-content p{
+        font-size: 16px;
+    }
+    .girl-bg img{
+        left: 10px;
+        width: 80%;
+        margin: auto;
+    }
+    .girl img{
+        width: 80%;
+        top: -26px;
+        left: 50px;
+    }
+    .acdetails-card{
+        margin-top: 20px;
+    }
+    .acdetails-card p{
+        font-size: 16px;
+    }
+    .acdetails-card h1{
+        font-size: 20px;
+    }
+    .heading p{
+        font-size: 14px;
+    }
+    .mini-card span{
+        font-size: 12px;
+    }
+    .mini-card h5{
+        font-size: 14px;
+        span{
+            font-size: 12px;
+        }
+    }
+    .account-details{
+        padding: 115px 0px 30px 0px;
+    }
+    .card{
+        width: 70%;
+    }
+    .card img{
+        width: 100%;
+    }
+    .img-div{
+        width: 150px;
+        height: 150px;
+    }
+    .exp{
+        width: 250px;
+    }
+    .card h3{
+        font-size: 20px;
+    }
+    .card p{
+        font-size: 18px;
+    }
+    .register h1{
+        font-size: 35px;
+    }
+    .register p{
+        font-size: 14px;
+    }
+    .login-details ul{
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width:576px){
+    .home h3{
+        font-size: 38px;
+    }
+    .flexible{
+        text-align: center;
+    }
+    .flexible h2{
+        font-size: 35px;
+    }
+    .flexible p{
+        font-size: 16px;
+    }
+    .account-details h2{
+        font-size: 26px;
+    }
+    .girl-bg img{
+        width: 70%;
+    }
+    .girl img{
+        width: 70%;
+        left: 81px;
+    }
+    .mic-content h3{
+        font-size: 28px;
+    }
+    .mic-content p{
+        font-size: 13px;
+    }
+    .mic-content h1{
+        font-size: 28px;
+        span{
+            font-size: 39px;
+        }
+    }
+    .card-head span{
+        font-size: 18px;
+    }
+    .card-head h1{
+        font-size: 50px;
+    }
+    .card-head h2{
+        font-size: 50px;
+    }
+    .register h1{
+        font-size: 29px;
+        font-weight: 500;
+    }
+    .register p{
+        font-size: 12px;
+        font-weight: 400;
+    }
+}
+@media only screen and (max-width:525px){
+    .girl-bg img{
+        width: 67%;
+    }
+    .girl img{
+        left: 71px;
+    }
+}
+@media only screen and (max-width:425px){
+    .home h3{
+        font-size: 30px;
+    }
+    .flexible h2{
+        font-size: 27px;
+    }
+    .flexible p{
+        font-size: 12px;
+    }
+    .card-head h1{
+        font-size: 40px;
+        margin: 0px;
+    }
+    .exp{
+        width: 200px;
+    }
+    .card-head h2{
+        font-size: 40px;
+        padding-left: 54px;
+    }
+    .card-head span{
+        font-size: 15px;
+    }
+    .card h3{
+        font-size: 16px;
+    }
+    .card p{
+        font-size: 12px;
+    }
+    .mic-content h3{
+        font-size: 22px;
+    }
+    .mic-content p{
+        font-size: 11px;
+        margin-top: 0px;
+    }
+    .girl img{
+        left: 60px;
+    }
+    .acdetails-card{
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width:375px){
+    .card-head h1{
+        font-size: 32px;
+    }
+    .mic-voice{
+        width: 57%;
+    }
+    .img-div{
+        width:  50%;
+        height: 100%;
+    }
+    .card-head h2{
+        font-size: 32px;
+    }
+    .card-head span{
+        font-size: 12px;
+    }
+    .register h1{
+        font-size: 22px;
+    }
+    .login-details i{
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+    }
+    .register{
+        padding: 20px;
+    }
+    .login-details li{
+        font-size: 14px;
+    }
+    .mic-content h1{
+        font-size: 21px;
+        span{
+            font-size: 31px;
+        }
+    }
+}
+@media only screen and (max-width:321px){
+    .account-details h2{
+        font-size: 20px;
+    }
+    .acdetails-card p{
+        font-size: 14px;
+    }
+    .acdetails-card h1{
+        font-size: 16px;
+    }
+    .heading p{
+        font-size: 12px;
+    }
+    .mini-card span{
+        font-size: 10px;
+    }
+    .color1{
+        padding: 2px;
+    }
+    .color2{
+        padding: 2px;
+    }
+    .mini-card h5{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,724 @@
+@media (max-width:1302px){
+    .select select{
+        width: 340px;
+    }
+    .select button{
+        width: 130px;
+    }
+}
+@media (max-width:1150px) {
+    .select select{
+        width: 270px;
+    }    
+}
+@media (max-width:992px){
+    .select select{
+        width: 240px;
+    }
+    .select button{
+        width:120px;
+    }
+}
+@media (max-width:972px) {
+    .brand-background li{
+        width: 90%;
+    }
+}
+@media (max-width:945px) {
+    .brands{
+        padding: 0px 20 px;
+    }
+    .brand-background i{
+        font-size: 18px;
+    }
+}
+@media (max-width:908px){
+    .search-1 input{
+        width: 295px;
+    }
+}
+@media (max-width:886px) {
+    .select {
+        flex-direction: column;
+    }
+    .select select{
+        width: 350px;
+    }
+    .select button{
+        width: 150px;
+    }
+    .company ul{
+        width: 92%;
+    }
+    .map i{
+        bottom: 91px;
+    }
+    .phone i{
+        top: 20px;
+    }
+    .phone-1 i{
+        bottom: 72px;
+
+    }
+    .about-car li{
+        font-size: 14px;
+        width: 200px;
+    }
+}
+@media (max-width:880px){
+    .brands{
+        padding: 0px 12px;
+    }
+}
+@media (max-width:800px){
+    .cat-1 p {
+        position: relative;
+        left: -28px ;
+        font-size: 12px;
+    }
+}
+@media (max-width:781px) {
+    .search-bar ul{
+        padding: 0px 7px;
+    }
+
+}
+@media (max-width:779px){
+    .phone-1 i{
+        bottom: 72px;
+    }
+}
+@media (max-width:768px){
+    .search-1 input{
+        width: 200px;
+    }
+    .head-2 li{
+        font-size: 14px;
+    }
+    .img-1{
+        height: 217px;
+    }
+    .search-bar img{
+        width: 18px;
+        span{
+            font-size: 12px;
+        }
+    }
+    .cart {
+        font-size: 7px;
+        right: 55px;
+    }
+    .search-bar li i{
+        font-size: 18px;
+    }
+    .search-bar span{
+        font-size: 12px;
+    }
+}
+@media (max-width:762px){
+    .phone-1 i{
+        bottom: 73px;
+    }
+    .mic-bg{
+        width: 165px;
+    }
+    .product img{
+        padding: 37px 12px;
+    }
+}
+@media (max-width:745px) {
+    .line{
+        font-size: 12px;
+        padding: 0px 8px;
+    }
+    .line-1{
+        font-size: 12px;
+        padding: 0px 8px;
+    }
+    
+}
+@media (max-width:735px){
+    .brand-background li{
+        font-size: 15px;
+    }
+    .deals{
+        flex-direction: column;
+    }
+    .alloy{
+        margin: 10px 0px;
+    }
+    .foot-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .foot-11{
+        justify-content: space-around;
+    }
+    .foot-12{
+        justify-content: space-evenly;
+    }
+    .address{
+        left: 51px;
+    }
+    .contact{
+        left: 9px;
+    }
+    .contact h5{
+        font-size: 16px;
+    }
+    .map i{
+        bottom: 30px;
+    }
+    .phone-1 i{
+        bottom: 20px;
+    }
+    .card-2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-car ul{
+        display: flex;
+        position: relative;
+    }
+    .about-car li{
+        border-radius: 0px;
+        width: 150px;
+    }
+    .line{
+        position: absolute;
+        top: -84px;
+        left: 255px;
+    }
+    .line-1{
+        position: absolute;
+        top: -84px;
+        left: -215px;
+    }
+    .company ul{
+        width: 91%;
+    }
+
+}
+@media (max-width:703px){
+    .about-car li{
+        padding: 12px;
+        width: 70px;
+        font-size: 12px;
+    }
+    .company ul{
+        width: 90%;
+    }
+}
+@media (max-width:683px){
+    .brand-background li{
+        font-size: 13px;
+    }
+    .cat-1{
+        padding: 12px 4px;
+        margin: 0px 6px;
+    }
+    .set p{
+        font-size: 11px;
+    }
+    .image img{
+        width: 40px;
+    }
+    .cat-1 img{
+        width: 34%;
+    }
+    .cat-1 p{
+        font-size: 8px;
+        padding: 5px;
+        width:100px;
+        left: -13px;
+    }
+    .phone i{
+        top: 13px;
+    }
+    .phone-1 i{
+        bottom: 14px;
+    }
+    .address {
+        left: 28px;
+    }
+    .foot-1 p{
+        font-size: 13px;
+    }
+    .contact{
+        left: -12px;
+    }
+    .contact h5{
+        font-size: 14px;
+        padding: 8px 4px;
+    }
+}
+@media (max-width:639px){
+    .head-1 img {
+        width: 128px;
+    }
+    .search-br .icons{
+        padding: 0px;
+    }
+    .search-1{
+        padding: 8px 10px 8px 0px;
+    }
+    .head-2 li {
+        padding: 7px 2px;
+    }
+    .search-bar ul{
+        padding: 7px 2px;
+        span{
+            font-size: 10px;
+        }
+    }
+    .cart{
+        right: 38px;
+        top: 16px;
+    }
+    .combo-img img{
+        width: 18px;
+    }
+    .head-2 li{
+        font-size: 10px;
+    }
+}
+@media (max-width:614px) {
+    .brands{
+        padding: 0px 20px;
+    }
+}
+@media (max-width:609px) {
+    .about-car li{
+        padding: 5px 11px;
+        width: 70px;
+        font-size: 9px;
+    }
+    .line{
+        left: 205px;
+    }
+    .line-1{
+        left: -188px;
+    }
+}
+@media (max-width:599px) {
+    .about-car .bg-white{
+        width: 250px;
+        height: 250px;
+    }
+    .about-car img{
+        width: 60%;
+    }
+    .company ul{
+        width: 88%;
+    }
+    .contact h5{
+        font-size: 12px;
+        padding: 10px 0px;
+        padding-left: 10px;
+
+    }
+}
+@media (max-width:576px){
+    .search-1{
+        display: none;
+    }
+    .head-2 li{
+        display: none;
+    }
+    .search{
+        display: block;
+    }
+}
+@media (max-width:562px) {
+    .about-car li{
+        font-size: 9px;
+    }
+    .line{
+        padding: 0px 1px;
+    }
+
+}
+@media (max-width:525px){
+    .foot-3{
+        display: block;
+    }
+    .brand-background  li{
+        font-size: 12px;
+    }
+    .cat-1{
+        padding: 12px 4px;
+        margin: 0px 4px;
+    }
+    .cat-1 img{
+        width: 30%;
+    }
+    .cat-1 p{
+        font-size: 8px;
+        padding: 3px;
+        width: 80px;
+        left: -8px;
+    }
+    .about-car li{
+        width: 105px;
+        font-size: 9px;
+        padding: 4px;
+    }
+    .line-1{
+        top: -70px;
+    }
+    .line{
+        top: -70px;
+    }
+    .about-car .bg-white{
+        width: 300px;
+        height: 300px;
+    }
+    .about-car li{
+        font-size: 9px;
+        width: 80px;
+    }
+    .media li img{
+        width: 25px;
+    }
+    .foot-1{
+        font-size: 12px;
+    }
+    .foot-1 h5{
+        font-size: 12px;
+    }
+    .contact{
+        margin: 0px;
+    }
+    .map i{
+        bottom: 28px;
+        font-size: 15px;
+    }
+    .cart{
+        display: block;
+    }
+    .phone i{
+        top: 16px;
+        font-size: 15px;
+    }
+    .phone-1 i{
+        bottom: 16px;
+        font-size: 15px;
+    }
+    .foot-1{
+        align-items: center;
+    }
+    .foot-12{
+        flex-direction: column;
+        align-items: center;
+        margin: 25px 0px;
+    }
+    .address h4{
+        display: none;
+    }
+    .foot-1 ul li{
+        font-size: 14px;
+    }
+    .foot-1 p{
+        font-size: 16px;
+    }
+    .foot-1 h5{
+        font-size: 16px;
+    }
+}
+@media (max-width:499px){
+    .head-1 img{
+        width: 150px;
+    }
+    .head-1 ul i{
+        font-size: 18px;
+    }
+    .head-1 span{
+        right: 36px;
+    }
+    .search input{
+        width: 96%;
+    }
+    .search i{
+        padding: 5px 12px;
+        right: 14px;
+        top: 8px;
+        font-size: 14px;
+    }
+    .address{
+        left: 22px;
+    }
+    .contact{
+        left:27px;
+    }
+    .cat-1 img{
+        width: 48%;
+    }
+    .set p{
+        font-size: 10px;
+    }
+    .combo-img{
+        display: none;
+    }
+    .icons span{
+        display: none;
+    }
+    .cart{
+        display: block !important;
+    }
+} 
+@media (max-width:438px){
+    .bg{
+        height: 182px;
+        background-size: cover;
+    }
+    .select-car h1 {
+        font-size: 20px;
+        margin: 0px;
+    }
+    .select select{
+        font-size: 12px;
+        width: 300px;
+    }
+    .select button{
+        font-size: 12px;
+        width: 100px;
+    }
+    .exclusive-pro h3{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .explore h4{
+        font-size: 20px;
+    }
+    .customize h3{
+        font-size: 20px;
+    }
+    .popular h3{
+        margin: 9px 5px;
+    }
+    .product p{
+        font-size: 11px;
+    }
+    .about-car .bg-white{
+        width: 250px;
+        height: 250px;
+        margin-bottom: 70px;
+    }
+    .about-car img{
+        width: 200px;
+    }
+    .about-car button{
+        width: 90px;
+        font-size: 12px;
+    }
+    .about-car li{
+        font-size: 9px;
+        padding: 6px 0px;
+        width: 76px;
+    }
+    .topbrands h4{
+        font-size: 14px;
+        padding: 10px;
+    }
+    .company ul{
+        width: 84%;
+    }
+    .mic-bg{
+        width: 100px;
+    }
+    .mic img{
+        width: 48%;
+        padding: 20px 12px;
+    }
+    .colorshadow{
+        top: -87px;
+    }
+    .foot-1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .foot-12{
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0px;
+    }
+    .address{
+        margin: 0px;
+    }
+    .contact{
+        margin: 0px;
+    }
+    .map i{
+        bottom: 27px;
+    }
+    .phone i{
+        bottom: 66px;
+    }
+    .phone-1 i{
+        bottom: 19px;
+    }
+    .foot-3 li i{
+        font-size: 15px;
+    }
+    .foot-3 li{
+        font-size: 7px;
+    }
+}
+@media (max-width:430px) {
+    .brands{
+        padding: 0px 32px;
+    }
+}
+@media (max-width:405px){
+    .shade{
+        width: 80px;
+    }
+    .search i{
+        padding: 5px 12px;
+        right: 13px;
+        top: 8px;
+        font-size: 14px;
+    }
+    .brand-background li{
+        font-size: 10px;
+    }
+    .exclusive-pro h3{
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    .cat-1{
+        margin: 0px 2px;
+        padding:12px 2px;
+    }
+    .cat-1 p{
+        width: 60px;
+        font-size: 7px;
+        left: -5px;
+    }
+    .alloy{
+        height: 140px;
+        margin: 4px 0px;
+    }
+    .foot-12{
+        flex-direction: column;
+        align-items: center;
+    }
+    .address p{
+        font-size: 16px;
+    }
+    .phone-1 i{
+        bottom:20px;
+    }
+    .contact{
+        left: 3px;
+    }
+    .contact h5{
+        font-size: 15px;
+    }
+    .foot-2{
+        flex-direction: column;
+    }
+    .ship p{
+        padding-left: 15px;
+    }
+    .about-car li{
+        width: 60px;
+    }
+    .mic-bg{
+        width: 80px;
+    }
+    .mic img{
+        padding: 17px 6px;
+    }
+    .pay p{
+        padding-left: 12px;
+    }
+    .set{
+        padding: 0px 9px;
+    }
+    .one img{
+        width: 30px;
+    }
+    .one p{
+        font-size: 8px;
+    }
+    .two img{
+        width: 30px;
+    }
+    .two p{
+        font-size: 8px;
+    }
+
+}
+@media (max-width:475px) {
+    
+    .line-1{
+        left: -95px;
+    }
+    .line{
+        left: 130px;
+    }
+}
+@media (max-width:350px) {
+    .head-1 img{
+        width: 120px;
+    }
+    .shade{
+        margin: 0px 3px;
+    }
+    .search i{
+        padding: 5px 12px;
+        right: 10px;
+        top: 8px;
+        font-size: 14px;
+    }
+    .brand-background ul li{
+        padding: 0px 5px;
+    }
+    .brand-background i{
+        font-size: 17px;
+        display: flex;
+    }
+    .bg{
+        background-position: center;
+        height: 200px;
+    }
+}
+@media (max-width:334px) {  
+    .brand-background ul li{
+        padding: 0px 5px;
+        font-size: 12px;
+    }
+    .brand-background i{
+        font-size: 16px;
+        display: flex;
+    }
+    .category-1{
+        padding: 0px 0px 29px;
+    }
+    .about-car li{
+        width: 40px;
+        font-size: 7px;
+        padding: 4px;
+    }
+    .line-1{
+        left: -95px;
+    }
+    .line{
+        left: 130px;
+    }
+    .set{
+        padding: 0px 7px;
+    }
+    .one img{
+        width: 25px;
+    }
+    .one p{
+        padding-left: 10px;
+    }
+    .company ul{
+        width:79%;
+    }
+
+
+}

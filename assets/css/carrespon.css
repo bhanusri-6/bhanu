@@ -1,0 +1,312 @@
+@media (max-width:1441px){
+    .background{
+        height: 375px;
+    }
+}
+@media (max-width:1380px){
+    .search-logo input{
+        width: 600px;
+    }
+    .icons li span{
+        font-size: 13px;
+    }
+}
+
+@media (max-width:1346px){
+    .search-bar ul{
+        padding: 0px 12px;
+    }
+}
+@media (max-width:1385px) {
+    .select select{
+        width: 335px;
+    }
+    .select button{
+        width: 126px;
+    }
+
+}
+@media (max-width:1257px) {
+    .search-logo input{
+        margin-left: 30px;
+    }
+}
+@media (max-width:1231px) {
+    .search-logo input{
+        width: 580px;
+    }
+    .icons ul{
+        padding: 0px 20px;
+    }
+}
+@media (max-width:1201px){
+    .icons li i{
+        font-size: 20px;
+        padding: 0px 18px;
+    }
+    .icons ul{
+        align-items: center;
+    }
+    .brand-background li{
+        padding-right: 55px;
+    }
+    .select select{
+        width: 322px;
+    }
+    .mic-bg {
+        width: 207px;
+    }
+    .product img {
+        width: 53%;
+    }
+}
+@media (max-width:1191px) {
+    .cat-1 img{
+        width: 80px;
+    }
+    .cat-1{
+        padding: 25px;
+    }
+    .cat-1 p{
+        left: -34px;
+        bottom: -11px;
+    }
+    .cat-1{
+        margin: 0px 9px;
+    }
+}
+@media (max-width:1182px){
+    .search-logo input{
+        width: 560px;
+    }
+    .foot-11{
+        gap: 50px;
+    }
+    .foot-12{
+        gap: 50px;
+    }
+}
+@media (max-width:1152px){
+    .search-logo input{
+        width: 540px;
+    }
+    .icons li i{
+        padding: 0px 15px;
+    }
+    .cat-1 p{
+        left:-53px;
+        width: 143px;
+    }
+}
+@media (max-width:1121px) {
+    .icons ul{
+        padding: 0px 17px;
+    }
+    
+}
+@media (max-width:1116px) {
+    .icons ul{
+        padding: 0px 12px;
+    }
+    .icons ul li img{
+        padding: 0px 8px;
+    }
+    .icons ul li i{
+        padding: 0px 8px;
+    }
+}
+@media (max-width:1103px){
+    .search-logo input{
+        width: 514px;
+    }
+    .icons ul{
+        padding: 0px 16px;
+    }
+    .select select{
+        width: 284px;
+    }
+    .select button{
+        width: 106px;
+    } 
+}
+@media (max-width:1084px) {
+    .explore-img{
+        width: 150px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cat-1{
+        padding: 20px;
+    }
+    .cat-1 img{
+        width: 50%;
+    }
+    .cat-1 p{
+        font-size: 14px;
+        bottom: 0px;
+        left: -30px;
+    }
+}
+@media (max-width:1035px) {
+    .search-logo input{
+        width: 420px;
+    }
+}
+@media (max-width:1027px) {
+    .search-logo input{
+        width: 397px;
+    }
+    .about-car img {
+        width: 329px;
+        margin-bottom: 55px;
+    }
+    .about-car .bg-white {
+        width: 420px;
+        height: 420px;
+    }
+
+}
+@media (max-width:992px){
+    .select{
+        flex-direction: column;
+        align-items: center;
+    }
+    .select select{
+        width: 370px;
+        margin: 10px 0px;
+    }
+    .select button{
+        width: 150px;
+    }
+    .mic-bg{
+        width: 165px;
+    }
+    .mic-bg img{
+        width: 51%;
+    }
+    .product p{
+        font-size: 16px;
+    }
+    .deal{
+        height: 194px;
+    }
+    .category{
+        padding: 9px 0px;
+    }
+    .category .category{
+        flex-direction: column;
+        .cat-1{
+            margin-top: 20px;
+        }
+    }
+    .category-1{
+        padding-top: 2px;
+    }
+    .category-1 .category{
+        flex-direction: column;
+        .catres-1{
+            margin-top: 20px;
+        }
+    }
+    .colorshadow{
+        top: -120px;
+    }
+    .head-2 li{
+        font-size: 13px;
+    }
+    .brand-background li {
+        padding-right: 42px;
+        font-size: 13px;
+    }
+    .select-car h1{
+        font-size: 35px;
+    }
+    .select select{
+        font-size: 15px;
+    }
+    .select button{
+        font-size: 15px;
+    }
+    .company ul{
+        margin: 0px 13px;
+        width: 94%;
+    }
+    .about-car{
+        flex-direction: column;
+    }
+    .about-car img {
+        width: 350px;
+        margin-bottom: 55px;
+    }
+    .about-car .bg-white {
+        width: 400px;
+        height: 400px;
+    }
+    .about-car ul{
+        display: flex;
+        li{
+            width: 230px;
+            border-radius: 0px;
+            margin: 0px 20px;
+            box-shadow: 0px 0px 2px lightgray;
+        }
+    }
+    .about-carli{
+        position: relative;
+        top: -30px;
+    }
+    .exclusive-pro h3 {
+        margin-left: 26px;
+        padding: 5px 14px;
+    }
+}
+@media (max-width:949px) {
+    .search-logo input{
+        width: 340px;
+    }
+}
+@media (max-width:881px) {
+    .search-logo input{
+        width: 300px;
+    }
+    .icons ul{
+        padding:0px 12px;
+    }
+    .about-car ul li{
+        width:170px;
+    }
+}
+@media (max-width:799px){
+    .icons ul li img{
+        width: 19px;
+    }
+    .icons li span{
+        font-size: 12px;
+    }
+    .search-logo input{
+        width: 350px;
+    }
+    .search-logo i{
+        top: 10px;
+        padding: 12px 23px;
+    }
+    .icons ul{
+        display: none;
+    }
+    .dropdown{
+        display: block;
+    }
+    .dropdown:hover ul{
+        position: absolute;
+        display: block;
+        width: 35px;
+    }
+    .brand-background li{
+        padding-right: 25px;
+    }
+    .about-car li{
+        font-size: 12px;
+    }
+}

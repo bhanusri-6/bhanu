@@ -1,0 +1,197 @@
+body{
+    margin: 0px;
+}
+.one{
+    padding: 12px; 
+    background-color: rgb(6, 6, 86);
+}
+.bird{
+    display: flex; 
+    justify-content: space-between;
+}
+.person{
+    display: flex; 
+    padding-right: 35px;
+}
+.person p{
+    color: white; 
+    padding-right: 28px; 
+    padding-top: 7px; 
+    margin: 0px;
+}
+.person img{
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%;
+    object-fit: cover;
+}
+.two{
+    width: 94px;
+    display: flex;
+}
+.two1{
+    background-color: rgb(6, 6, 86); 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+}
+.three_blocks{
+    display: flex;
+}
+.two1 ul{
+    list-style-type: none;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    li i{
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+}
+.two ul{
+    li{
+        margin: 25px 0px;
+    }
+}
+.three{
+    background-color: rgb(197, 197, 237);
+    height: auto;
+}
+.three1{
+    background-color: white;
+    text-align: center;
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;    
+}
+.three1 img{
+    width: 60%;
+}
+.three1 p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+
+}
+.three1 span{
+    font-weight: 400;
+    padding-left: 9px;
+}
+.three1 i{
+    border-radius: 50%;
+    padding: 6px;
+    color: white;
+}
+.box1{
+    width: 235px;
+    margin: 3px;
+    height: 127px;
+    background-color: rgb(249, 234, 237);
+    border-radius: 18px;
+    padding: 18px;
+}
+.box1 i{
+    font-size: 30px;
+    padding: 8px;
+    margin-left: 6px;
+}
+.box1 p{
+    margin: 0px;
+    font-size: 18px;
+}
+.box1 span{
+    color: rgb(211, 56, 82);
+    border-bottom: 1px solid rgb(211, 56, 82);
+    margin-left: 17px;
+}
+.box2{
+    width: 235px;
+    margin: 3px;
+    height: 127px;
+    background-color: rgb(230, 243, 255);
+    border-radius: 18px;
+    padding: 18px;
+}
+.box2 i{
+    font-size: 30px;
+    padding: 8px;
+    margin-left: 6px;
+}
+.box2 p{
+    margin: 0px;
+    font-size: 18px;
+}
+.box2 span{
+    color: rgb(136, 178, 232);
+    border-bottom: 1px solid rgb(136, 178, 232);
+    margin-left: 17px;
+}
+.box3{
+    width: 235px;
+    margin: 3px;
+    height: 127px;
+    background-color: rgb(231, 255, 240);
+    border-radius: 18px;
+    padding: 18px;
+}
+.box3 i{
+    font-size: 30px;
+    padding: 8px;
+    margin-left: 6px;
+}
+.box3 p{
+    margin: 0px;
+    font-size: 18px;
+}
+.box3 span{
+    color: rgb(89, 228, 89);
+    border-bottom: 1px solid rgb(89, 228, 89);
+    margin-left: 17px;
+}
+.book{
+    margin: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px 10px;
+    height: 134px;
+    background-color: white;
+}
+.book button{
+    padding: 8px;
+    border-radius: 20px;
+
+}
+.job{
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    margin-top: 66px;
+    border-radius: 6px;
+    height: 400px;
+    background-color: white;
+}
+.job img{
+    width: 40px;
+    height: 40px;
+    position:absolute;
+    left: 20px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+.job p{
+    margin: 0px;
+    width: 236px;
+    padding-left: 39px;
+}
+.fold{
+    height: 200px;
+    margin-left: 20px;
+    background-color: white;
+}
+.fold p{
+    text-align: justify;
+    background-color: blue;
+    font-size: 31px;
+    color: bisque;
+    padding: 10px;
+    border-radius: 5px;
+}

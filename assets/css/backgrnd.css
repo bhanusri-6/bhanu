@@ -1,0 +1,101 @@
+.box{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background-color: pink;
+}
+.box p{
+    text-align: center;
+}
+.box img{
+    display: none;
+}
+.block{
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    background-color: rgb(224 211 239);
+    color: rgb(163, 0, 0);
+    text-align: center;
+    margin: auto;
+}
+.block h5{
+    font-size: 30px;
+}
+.block p{
+    font-size: 40px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+.bckgrnd{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    background-color: pink;
+    padding: 20px;
+}
+.bckgrnd p{
+    font-size: 20px;
+    color: rgb(62, 62, 62);
+}
+.gamepage{
+    background-color: rgb(255, 227, 115);
+    padding: 20px;
+}
+.gamepage img{
+    width: 70px;
+    position: absolute;
+    top: 95px;
+    right: 70px;
+}
+.gamepage input{
+    padding: 7px;
+}
+.gamepage button{
+    padding: 5px 19px;
+    width: 90px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: brown;
+    color: white;
+}
+.result{
+    padding: 7px;
+}
+.colorpicker-div{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+.color-box{
+    display: flex;
+    justify-content: space-around;
+}
+.color-box button{
+    width: 90px;
+    height: 90px;
+    border-radius: 9px;
+}
+.color1{
+    background-color: #e0e0e0;
+}
+.color2{
+    background-color: #6fcf97;
+}
+.color3{
+    background-color: #56cc;
+}
+.color4{
+    background-color: #bb6bd9;
+}
+.color-name{
+    background-color: black;
+    padding: 2px;
+    color: white;
+}
+.color-name h1{
+    margin: 0px;
+}

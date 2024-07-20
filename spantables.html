@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <title>SpanTable</title>
+</head>
+<body>
+
+    <h1>Columnspan</h1>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Name</th>
+                <th >Age</th>
+                <th colspan="2">Address</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jill</td>            
+                <td>Smith</td>
+                <td>43</td>
+                <td>d.no:58/2</td>
+                <td>court street</td>
+                <td>Austria</td>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>57</td>
+                <td>d.no:1736</td>
+                <td>kings bakery</td>
+                <td>England</td>
+            </tr>
+
+            <tr>
+                <td>Bhargavi</td>
+                <td>priya</td>
+                <td>17</td>
+                <td>d.no:68-8-15</td>
+                <td>nancy street</td>
+                <td>India</td>
+            </tr>
+
+            <tr>
+                <td>sri</td>
+                <td>lakshmi</td>
+                <td>25</td>
+                <td>25-4A</td>
+                <td>ring circle</td>
+                <td>Malaysia</td>
+            </tr>
+
+            <tr>
+                <td>Krishna</td>
+                <td>sri</td>
+                <td>24</td>
+                <td>d.no:ISCAT</td>
+                <td>glass house</td>
+                <td>Indonesia</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <h1>Rowspan</h1>
+    <table>
+        <thead>
+            <tr class="pretty">
+                <th colspan="2">A</th>
+                <th>B</th>
+                <th colspan="3">C</th>
+                <th>D</th>
+            </tr>
+            <tr>
+                <th rowspan="2">AA</th>
+                <td>sdfghjsdfxc</td>
+                <td>asdfgh</td>
+                <td>asdfg</td>
+                <td rowspan="3" colspan="2">mmnbv</td>
+                <td>poiuy</td>
+
+            </tr>
+            <tr class="pretty">
+                <td>asdfgh</td>
+                <td>sdgfh</td>
+                <td>sdfgh</td>
+                <td>scv b n</td>
+                
+    
+            </tr>
+            <tr>
+                <th rowspan="2">D</th>
+                <td>dfvgbnhjk</td>
+                <td>unyhbgtvfrcd</td>
+                <td>cfvgbnhj</td>
+                <td>rvfg </td>
+            
+            </tr>
+
+            <tr class="pretty">
+                <td>dfvgbnhjk</td>
+                <td>unyhbgtvfrcd</td>
+                <td>cfvgbnhj</td>
+                <td>rvfg </td>
+                <td>kmjnhbgvf</td>
+                <td>asdfgh</td>
+            </tr>
+
+            <tr >
+                <td>dfvgbnhjk</td>
+                <td>unyhbgtvfrcd</td>
+                <th rowspan="5" colspan="2">E</th>
+                <td>rvfg </td>
+                <td rowspan="3">kmjnhbgvf</td>
+                <td>wsedrftgyh</td>
+            </tr>
+
+            <tr class="pretty">
+                <td>dfvgbnhjk</td>
+                <td>unyhbgtvfrcd</td>
+                <td>cfvgbnhj</td>
+                <td>rvfg </td>
+    
+            </tr>
+            <tr>
+                <td>dfvgbnhjk</td>
+                <td>unyhbgtvfrcd</td>
+                <td>cfvgbnhj</td>
+                <td>rvfg </td>
+            </tr>
+
+            <tr class="pretty">
+                <td>dfvgbnhjk</td>
+                <td>unyhbgtvfrcd</td>
+                <td>cfvgbnhj</td>
+                <td>rvfg </td>
+                <td>kmjnhbgvf</td>
+            </tr>
+
+            <tr>
+                <td>dfvgbnhjk</td>
+                <td>unyhbgtvfrcd</td>
+                <td>cfvgbnhj</td>
+                <td>rvfg </td>
+                <td>kmjnhbgvf</td>
+            </tr>
+            <tr class="pretty">
+                <td>dfvgbnhjk</td>
+                <td>unyhbgtvfrcd</td>
+                <td>cfvgbnhj</td>
+                <td>rvfg </td>
+                <td>kmjnhbgvf</td>
+                <td>asdfg</td>
+                <td>asdfgh</td>
+            </tr>
+        </thead>
+    </table>
+
+    <h1>TimeTable</h1>
+
+    <table>
+        <thead>
+            <tr  class="xyz">
+                <th>Week</th>
+                <th>1st</th>
+                <th>2nd</th>
+                <th>3rd</th>
+                <th>4th</th>
+                <th>5th</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="uvw">
+                <td>Monday</td>
+                <td>Tel</td>
+                <td>Hindi</td>
+                <td>Eng</td>
+                <td rowspan="2">Maths</td>
+                <td>Games</td>
+            </tr>
+
+            <tr class="uvw">
+                <td>Tuesday</td>
+                <td colspan="2">Hindi</td>
+                <td>Soc</td>
+                <td>EVS</td>
+            </tr>
+
+            <tr class="uvw">
+                <td>Wednesday</td>
+                <td>Sci</td>
+                <td colspan="2">Maths</td>
+                <td>Hindi</td>
+                <td>Art</td>
+            </tr>
+
+            <tr class="uvw">
+                <td>Thursday</td>
+                <td colspan="2">Tel</td>
+                <td>Soc</td>
+                <td rowspan="2">Maths</td>
+                <td>EVS</td>
+            </tr>
+
+            <tr class="uvw">
+                <td>Friday</td>
+                <td>Tel</td>
+                <td>Eng</td>
+                <td>Sci</td>
+                <td>Eng</td>
+            </tr>
+
+            <tr class="uvw">
+                <td>Saturday</td>
+                <td colspan="2">Maths</td>
+                <td colspan="3">Games</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <h1>Team cards</h1>
+
+    <div class="team_outer">
+        <div class="main_card">
+            <div class="sub_card one">AA</div>
+            <div class="sub_card_two">
+                <div class="image_class">
+                    <img src="assets/images/img.jpg" alt="" height="80px" width="80px">
+                </div>
+                <h3>Hari Satya varma</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate expedita praesentium et excepturi </p>
+                
+            <ul>
+                <li><i class="ri-facebook-circle-fill"></i></li>
+                <li><i class="ri-twitter-x-fill"></i></li>
+                <li><i class="ri-instagram-fill"></i></li>
+                <li><i class="ri-linkedin-box-fill"></i></li>
+            </ul>
+            </div>
+        </div>
+        <div class="main_card">
+            <div class="sub_card two">AA</div>
+            <div class="sub_card_two">
+                <div class="image_class">
+                    <img src="assets/images/img.jpg" alt="" height="80px" width="80px">
+                </div>
+                <h3>Hari Satya varma</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate expedita praesentium et excepturi </p>
+                
+            <ul>
+                <li><i class="ri-facebook-circle-fill"></i></li>
+                <li><i class="ri-twitter-x-fill"></i></li>
+                <li><i class="ri-instagram-fill"></i></li>
+                <li><i class="ri-linkedin-box-fill"></i></li>
+            </ul>
+            </div>
+        </div>
+        <div class="main_card">
+            <div class="sub_card three">AA</div>
+            <div class="sub_card_two">
+                <div class="image_class">
+                    <img src="assets/images/img.jpg" alt="" height="80px" width="80px">
+                </div>
+                <h3>Hari Satya varma</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate expedita praesentium et excepturi </p>
+                
+            <ul>
+                <li><i class="ri-facebook-circle-fill"></i></li>
+                <li><i class="ri-twitter-x-fill"></i></li>
+                <li><i class="ri-instagram-fill"></i></li>
+                <li><i class="ri-linkedin-box-fill"></i></li>
+            </ul>
+            </div>
+        </div>
+        <div class="main_card">
+            <div class="sub_card one">AA</div>
+            <div class="sub_card_two">
+                <div class="image_class">
+                    <img src="assets/images/img.jpg" alt="" height="80px" width="80px">
+                </div>
+                <h3>Hari Satya varma</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate expedita praesentium et excepturi </p>
+                
+            <ul>
+                <li><i class="ri-facebook-circle-fill"></i></li>
+                <li><i class="ri-twitter-x-fill"></i></li>
+                <li><i class="ri-instagram-fill"></i></li>
+                <li><i class="ri-linkedin-box-fill"></i></li>
+            </ul>
+            </div>
+        </div>
+        <div class="main_card">
+            <div class="sub_card one">AA</div>
+            <div class="sub_card_two">
+                <div class="image_class">
+                    <img src="assets/images/img.jpg" alt="" height="80px" width="80px">
+                </div>
+                <h3>Hari Satya varma</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate expedita praesentium et excepturi </p>
+                
+            <ul>
+                <li><i class="ri-facebook-circle-fill"></i></li>
+                <li><i class="ri-twitter-x-fill"></i></li>
+                <li><i class="ri-instagram-fill"></i></li>
+                <li><i class="ri-linkedin-box-fill"></i></li>
+            </ul>
+            </div>
+        </div>
+        <div class="main_card">
+            <div class="sub_card one">AA</div>
+            <div class="sub_card_two">
+                <div class="image_class">
+                    <img src="assets/images/img.jpg" alt="" height="80px" width="80px">
+                </div>
+                <h3>Hari Satya varma</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate expedita praesentium et excepturi </p>
+                
+            <ul>
+                <li><i class="ri-facebook-circle-fill"></i></li>
+                <li><i class="ri-twitter-x-fill"></i></li>
+                <li><i class="ri-instagram-fill"></i></li>
+                <li><i class="ri-linkedin-box-fill"></i></li>
+            </ul>
+            </div>
+        </div>
+        <div class="main_card">
+            <div class="sub_card one">AA</div>
+            <div class="sub_card_two">
+                <div class="image_class">
+                    <img src="assets/images/img.jpg" alt="" height="80px" width="80px">
+                </div>
+                <h3>Hari Satya varma</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate expedita praesentium et excepturi </p>
+                
+            <ul>
+                <li><i class="ri-facebook-circle-fill"></i></li>
+                <li><i class="ri-twitter-x-fill"></i></li>
+                <li><i class="ri-instagram-fill"></i></li>
+                <li><i class="ri-linkedin-box-fill"></i></li>
+            </ul>
+            </div>
+        </div>
+        <div class="main_card">
+            <div class="sub_card one">AA</div>
+            <div class="sub_card_two">
+                <div class="image_class">
+                    <img src="assets/images/img.jpg" alt="" height="80px" width="80px">
+                </div>
+                <h3>Hari Satya varma</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate expedita praesentium et excepturi </p>
+                
+            <ul>
+                <li><i class="ri-facebook-circle-fill"></i></li>
+                <li><i class="ri-twitter-x-fill"></i></li>
+                <li><i class="ri-instagram-fill"></i></li>
+                <li><i class="ri-linkedin-box-fill"></i></li>
+            </ul>
+            </div>
+        </div>
+        <div class="main_card">
+            <div class="sub_card one">AA</div>
+            <div class="sub_card_two">
+                <div class="image_class">
+                    <img src="assets/images/img.jpg" alt="" height="80px" width="80px">
+                </div>
+                <h3>Hari Satya varma</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate expedita praesentium et excepturi </p>
+                
+            <ul>
+                <li><i class="ri-facebook-circle-fill"></i></li>
+                <li><i class="ri-twitter-x-fill"></i></li>
+                <li><i class="ri-instagram-fill"></i></li>
+                <li><i class="ri-linkedin-box-fill"></i></li>
+            </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+/*.grid{
+    border: 1px solid black;
+    width:900px;
+    height:300px;
+}
+.grid1{
+    background-color: aquamarine;
+    width: 180px;
+    height: 120px;
+    margin: 2px;
+}
+.row2{
+    background-color: green;
+    width: 110px;
+    height: 60px;
+    float: left;
+    margin: 2px;
+}
+.srow2{
+    background-color: blueviolet;
+    width: 66px;
+    height: 20px;
+    float:left;
+    margin: 2px;
+}
+.srow3{
+    background-color: red;
+    width: 66px;
+    height: 37px;
+    margin: 2px;
+    margin-top:25px;
+}
+.last{
+    background-color: green;
+    width: 180px;
+    height: 90px;
+    margin:2px;
+    margin-top: 5px;
+}
+.grid2{
+    background-color: green;
+    width: 150px;
+    height: 230px;
+    margin:2px;
+}*/
+
+
+.testing{
+    padding: 50px 0px ;
+    background-color: #d7d6d6;
+}
+.test_card{
+    height: 250px ;
+    width: 350px;
+    border: 1px solid #767575;
+    background-color: #63d9ee;
+    background-image: url(../images/bg_1);
+    background-size: cover;
+    margin: auto;
+    border-radius: 12px;
+    position: relative;
+    padding: 20px;
+}
+.test_card h2{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+}
+.test_card h3{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+}
+.test_card::before{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: #0f0b0b;
+    border-radius: 12px;
+    opacity: 0.7;
+    left: 0;
+    top: 0;
+}
+/* .test_card::after{
+    position: absolute;
+    content: '';
+    height: 50%;
+    width: 50%;
+    background-color: #ef10f0b0b010;
+    border-radius: 12px;
+    opacity: 0.7;
+    bottom: 0;
+    right: 0;
+} */

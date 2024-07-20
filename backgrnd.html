@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/backgrnd.css">
+    <title>practiceofjs</title>
+</head>
+<body>
+        <div class="box" id="box-colour">
+            <p id="text">hello</p>
+            <img src="./assets/images/bird.png" alt="" id="birdImage">
+        </div>
+        <button class="btn-change" onclick="btnclick()">Change Colour</button>
+        <div class="contentchange">
+            <p id="name">Web Technologies</p>
+            <button onclick="clickto()">Change content</button>
+        </div>
+        <!-- increment and decrement -->
+       <section style="padding: 20px;">
+        <div class="block">
+            <h5>Counter</h5>
+            <p id="count">0</p>
+            <div class="buttons">
+                <button onclick="onDecrement()">Decrease</button>
+                <button onclick="onReset()">Reset</button>
+                <button onclick="onIncrement()">Increase</button>
+            </div>
+        </div>
+       </section>
+
+        <!-- Guess the number -->
+            <section style="padding: 20px;">
+                <div class="bckgrnd">
+                    <p>Find out the right number between 1-100</p>
+                    <div class="gamepage">
+                        <h1>Guess the Number</h1>
+                        <img src="./assets/images/guessnumberimg.png" alt="">
+                        <input type="text" name="" id="userInput"><br><br>
+                        <button onclick="checkOut()">Check</button><br><br>
+                        <div class="result" id="gameResult"></div>
+                    </div>
+                 </div>
+            </section>
+
+        <!--color picker-->
+        <section>
+            <div class="colorpicker-div">
+                <h1>Color Picker</h1>
+                <div class="color-box">
+                   <button class="color1">#e0e0e0</button>
+                   <button class="color2">#6fcf97</button>
+                   <button class="color3">#56cc</button>
+                   <button class="color4">#bb6bd9</button>
+                </div>
+                <div class="color-name"><p>Background color:</p></div>
+                <div>Try clicking on the color to change the background colour of the page</div>
+            </div>
+        </section>
+</body>
+<script src="assets/js/practice.js" ></script>
+</html>

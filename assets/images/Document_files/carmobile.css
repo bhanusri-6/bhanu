@@ -1,0 +1,463 @@
+body{
+    margin: 0px;
+}
+.logo{
+    background-color: black;
+}
+.head-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-1 img{
+    width: 190px;
+    padding: 5px;
+}
+.search-bar{
+    position: relative;
+}
+.search-bar ul{
+    list-style-type: none;
+    padding: 0px 20px;
+    color: white;
+    display: flex;
+}
+.search-bar li i{
+    font-size: 24px;
+    padding: 0px 7px;
+}
+.search-bar span{
+    background: red;
+    padding: 2px;
+    font-size: 9px;
+    border-radius: 30px;
+    position: absolute;
+    right: 61px;
+    top: 13px;
+}
+.search{
+    padding: 8px 10px 8px 20px;
+    position: relative;
+}
+.search input{
+    width: 98%;
+    border-radius: 25px;
+    box-shadow: 0px 0px 2px lightgray;
+    border: 1px;
+    padding: 5px;
+}
+.search i{
+    color: #0f0f0f;
+    background: #ffc300;
+    position: absolute;
+    padding: 6px 12px;
+    right: 10px;
+    top: 8px;
+    border-radius: 0px 25px 25px 0px;
+    font-size: 13px;
+}
+.bg{
+    background-image: url(../images/mobile-bg.png);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+.brand-background{
+    background-color: #0f0f0f;
+}
+.brand-background ul{
+    padding: 12px 0px;
+    font-family: system-ui;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.brand-background li{
+    border-right: 2px solid white;
+    white-space: nowrap;
+    padding-right: 12px;
+}
+.brand-background i{
+    text-align: end;
+    font-size: 20px;
+}
+.select-car{
+    padding: 15px 0px 30px;
+    text-align: center;
+}
+.select-car h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    font-size: 40px;
+}
+.select select{
+    background-color: #dedede;
+    padding: 10px 10px;
+    width: 380px;
+    font-weight: 600;
+    font-size: 19px;
+    margin: 12px 0px;
+    border: 0px;
+    color: grey;
+    border-radius: 0px 0px 16px 16px;
+}
+.select button{
+    border: 0px;
+    background-color: #ffc300;
+    color: #0f0f0f;
+    font-weight: 700;
+    border-radius: 40px;
+    padding: 7px;
+    margin: 11px 0px;
+    font-size: 18px;
+    width: 145px;
+}.exclusive-pro{
+    background-color: rgb(240 240 240);
+    padding: 20px 0px;
+}
+.exclusive-pro h3{
+    margin-left: 80px;
+    padding-left: 20px;
+    padding: 5px 28px;
+    font-size: 28px;
+    border-left: 13px solid #f4bc14;
+    border-radius: 10px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+}
+.product{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    z-index: 1;
+}
+.mic{
+    text-align: center;
+}
+.product img{
+    width: 40%;
+    padding: 30px;
+    background-color: white;
+    border-radius: 50%;
+}
+.product p{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.explore{
+    background-color: rgb(241, 239, 239);
+    text-align: center;
+    padding: 40px 0px 20px 0px;
+    position: relative;
+}
+.colorshadow{
+    background: linear-gradient(0deg, rgba(238,239,239,1) 47%, rgba(195,193,191,1) 100%);
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: -136px
+}
+.explore h4{
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    text-decoration: underline #ffc300;
+    margin: 0px;
+    padding: 12px;
+    position: relative;
+    z-index: 1;
+}
+.category{
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+}
+.category-1{
+    padding: 30px 0px 60px;
+    display: flex;
+    justify-content: center;
+}
+.cat-1{
+    box-shadow: 0px 0px 2px grey;
+    border-radius: 8px;
+    background-color: white;
+    padding: 20px;
+    margin: 0px 12px;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.cat-1 img{
+    width: 50%;
+}
+.cat-1 p{
+    position: relative;
+    left: -38px;
+    bottom: -6px;
+    background-color: rgb(252, 232, 144);
+    padding: 9px;
+    margin: 0px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 13px;
+    white-space: nowrap;
+}
+.popular{
+    text-align: left;
+    background-color: white;
+    padding: 4px 0px;
+}
+.popular h3{
+    margin: 0px 10px;
+    border: 1px solid rgb(241, 239, 239);
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 28px;
+    border-left: 13px solid #f4bc14;
+    border-radius: 10px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+}
+.deals{
+    margin: 20px 0px;
+}
+.alloy{
+    background-image: url(../images/alloyimage.png);
+    width: 100%;
+    height: 185px;
+    margin: 10px 0px;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+.customize{
+    background-image: url(../images/2d-bg.png);
+}
+.customize h3{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    text-decoration: underline #ffc300;
+    font-size: 25px;
+}
+.about-car{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-car img{
+    width: 80%;
+}
+.about-car  button{
+    border: 0px;
+    background: #ffc300;
+    padding: 4px;
+    font-size: 16px;
+    border-radius: 34px;
+    width: 113px;
+}
+.about-car .bg-white{
+    background-color: #ffffff;
+    box-shadow: 0px 0px 7px #c6c5c5;
+    border-radius:50% ;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.about-car ul{
+    list-style-type: none;
+    padding: 0px;
+}
+.about-car li{
+    background-color: white;
+    box-shadow: 0px 0px 3px grey;
+    margin: 17px 0px;
+    padding: 12px;
+    text-align: center;
+    border-radius: 15px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+.car2d-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.companies{
+    padding: 12px 0px;
+    background-color: rgb(225, 225, 225);
+}
+.topbrands h4{
+    margin: 6px 20px;
+    border: 1px solid rgb(241, 239, 239);
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 28px;
+    border-left: 13px solid #f4bc14;
+    border-radius: 10px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+}
+.company ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px 20px;
+    padding: 12px;
+    border: 1px solid rgb(241, 239, 239);
+    background-color: white;
+}
+.company img{
+    width: 50%;
+}
+.foot{
+    padding: 20px 0px;
+}
+.media{
+    text-align: center;
+}
+.media ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+.media li{
+    padding: 0px 10px;
+}
+.media li img{
+    width: 35px;
+}
+.foot-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot-11{
+    display: flex;
+}
+.foot-12{
+    display: flex;
+}
+.foot-1 h4{
+    margin: 0px;
+    margin-bottom: 6px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.quick{
+    margin: 0px 12px;
+    padding: 0px 12px;
+}
+.help{
+    margin: 0px 12px;
+    padding: 0px 12px;
+}
+.foot-1 ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+}
+.foot-1 p{
+    color: grey;
+    margin: 0px;
+}
+.address{
+    position: relative;
+    margin-right: 20px;
+}
+.map i{
+    position: absolute;
+    left: -23px;
+    bottom: 74px;
+    color: black;
+}
+.contact{
+    position: relative;
+    padding: 5px 0px;
+    margin-left: 20px;
+}
+.contact h5{
+    color: grey;
+    font-size: 20px;
+    margin: 0px;
+    padding: 12px;
+}
+.phone i{
+    position: absolute;
+    right: 100%;
+    bottom: 98px;
+    color: black;
+}
+.phone-1 i{
+    position: absolute;
+    right: 100%;
+    bottom: 51px;
+    color: black;
+}
+.foot-2{
+    padding: 12px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.foot-2 ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0px 8px;
+    margin: 0px;
+}
+.ship p{
+    padding: 0px 8px;
+    font-size: 8px;
+    font-weight: 600;
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ship img{
+    width: 50%;
+}
+.car{
+    display: flex;
+    justify-content: center;
+}
+.car img{
+    width: 40%;
+}
+.pay p{
+    padding: 0px 3px;
+    font-size: 8px;
+    font-weight: 600;
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pay img{
+    width: 50%;
+}
+.foot-3{
+    background-color: #0f0f0f;
+    padding: 6px;
+}
+.foot-3 ul{
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}

@@ -1,0 +1,243 @@
+@font-face {
+    font-family: "Thebringa-Regular";
+    src: url(../the_bringa/Thebringa-Regular.ttf);
+}
+
+body{
+    width: 100%;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bar{
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 65px;
+    padding-right: 25px;
+}
+.map{
+    position: relative;
+}
+.loc i{
+    position: absolute;
+    top: -5px;
+    left: -22px;
+    font-size: 25px;
+}
+.loc h1{
+    margin: 0px;
+    font-size: 25px;
+    color: red;
+}
+.nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    font-size: 17px;
+    margin: 0px;
+}
+.nav li{
+    padding: 20px;
+    cursor: pointer;
+}
+.nav li:hover{
+    background-color: red;
+}
+.image{
+    background-image: url(../images/confident-young-muscular-caucasian-athlete-practicing-gym-with-weights-male-model-doing-strength-exercises-training-his-upper-body-wellness-healthy-lifestyle-bodybuilding-concept_155003-28006.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.main{
+    color: aliceblue;
+    position: absolute;
+    top: 440px;
+    left: 177px;
+}
+.main p{
+    font-weight: bold;
+    font-size: 67px;
+}
+.main span{
+    font-size: 20px;
+}
+.best{
+    background-color: darkred;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.aero{
+    border: 1px solid wheat;
+}
+.aero img{
+    width: 359px;
+}
+.at_the{
+    text-align: center;
+    h3{
+        font-weight: 600;
+    }
+}
+.matter{
+    background-color: white;
+}
+.matter p{
+    background-color: red;
+    margin: 0px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+}
+.matter span{
+    color: black;
+    margin: 20px;
+    text-align: center;
+}
+.service{
+    background-color: rgb(32, 26, 26);
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.our{
+    text-align: center;
+    p{
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+.our_1{
+    text-align: justify;
+}
+.our span{
+    color: grey;
+}
+.bic{
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.bic p{
+    font-weight: bold;
+    font-size: 17px;
+}
+.bic span{
+    color: grey;
+}
+.bic i{
+    left: -36px;
+    position: absolute;
+    color: rgba(255, 0, 0, 0.656);
+    top: 45px;
+    font-size: 26px;
+}
+.fit{
+    background-color: rgb(30, 30, 30);
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.our_1 ul{
+    list-style-type: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    li{
+        color: grey;
+        line-height: 30px;
+        text-align: justify;
+    }
+}
+.our_1 h6{
+    text-align: justify;
+    padding-top: 20px;
+    font-size: 15px;
+    color: grey;
+}
+.our_1 button{
+    /* background-color: rgba(243, 28, 64, 0.863); */
+    background: linear-gradient(90deg, rgba(218,9,9,1) 0%, rgba(0,5,255,1) 100%);
+    color: white;
+    width: 150px;
+    padding: 6px;
+    border: 0px;
+}
+.our_1 li{
+    i{
+        color: red;
+        font-size: 20px;
+        position: absolute;
+        left: 23px;
+    }
+}
+.pack img{
+    height: 255px;
+    padding-left: 80px;
+}
+.contact{
+    background-color: black;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: justify;
+}
+.ball p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.ball span{
+    color: grey;
+}
+.product{
+    line-height: 24px;
+}
+.product p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.product span{
+    color: grey;
+}
+.bottom{
+    padding-bottom: 10px;
+}
+.foot{
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border-top: 1px solid grey;
+}
+.temp p{
+    margin: 0px;
+    padding-left: 20px;
+    color: grey;
+    span{
+        color: white;
+    }
+}
+.face ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+}
+.face{
+    li{
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        cursor: pointer;
+    }
+}
+
+.main p{
+    background: linear-gradient(90deg, rgba(218,9,9,1) 0%, rgba(0,5,255,1) 100%);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Thebringa-Regular';
+}

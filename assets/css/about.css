@@ -1,0 +1,77 @@
+.about-head{
+    background-image: url(../images/about-bg.png);
+    height: 500px;
+}
+.logo{
+    padding: 15px 0px;
+}
+.top{
+    position: relative;
+}
+.top img{
+    position: absolute;
+    left: 142px;
+    top: 11px;
+    width: 180px;
+}
+.service{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 50px;
+}
+.service a{
+    font-size: 19px;
+    text-decoration: none;
+    color: white;
+}
+.service a:hover{
+    color: #0c5adb;
+}
+.service ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px 20px;
+    font-family: system-ui, sans-serif;
+}
+.service_1 li{
+    padding: 23px 22px;
+}
+.service button{
+    background-color:#0c5adb;
+    border: 0px;
+    padding: 14px;
+    width: 140px;
+    color: white;
+    border-radius: 7px;
+}
+.page ul{
+    list-style-type: none;
+    margin-top: 23px;
+    display: none;
+    line-height: 25px;
+    border-top: 5px solid rgb(22, 96, 206);
+}
+.sub_service li{
+    padding: 10px;
+    transition: 1s;
+}
+.page:hover ul{
+    display: block;
+    position: absolute;
+    padding: 0px;
+}
+.sub_service :hover{
+    background-color: #0c5adb;
+    a{
+        color: white;
+    }
+}
+.search button:hover{
+    color:#0c5adb;
+    background-color: white;
+    border: 1px solid #0c5adb;
+    transition: 1s;
+    animation-name: slideInLeft;
+}

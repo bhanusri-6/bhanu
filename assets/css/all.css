@@ -1,0 +1,61 @@
+.namebar{
+    background: radial-gradient(circle, rgba(101,54,172,1) 0%, rgba(186,54,154,1) 73%);
+    padding: 20px 15px;
+}
+.center{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.name h3{
+    margin: 0px;
+    padding-left: 60px;
+    color: palegoldenrod;
+}
+.name i{
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    font-size: 35px;
+    top: -13px;
+    left: 34px;
+}
+.navi ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+}
+.navi li{
+    padding-left: 20px;
+    padding-right: 20px;    
+}
+.navi a{
+    color: palegoldenrod;
+    font-size: 20px;
+    text-decoration: none;
+}
+.navi li:hover{
+    background-color: rgba(255, 250, 250, 0.582);
+}
+.bg img{
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+.content{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.matter{
+    text-align: justify;
+}
+.saree img{
+    height: 300px;
+    margin-left: 90px;
+}

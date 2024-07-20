@@ -1,0 +1,615 @@
+
+.Flexs{
+    display:flex;
+}
+.blue{
+    border: 1px solid blue;
+    background-color: blue;
+    margin-right: 3px;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+}
+.purple{
+    border: 1px solid purple;
+    background-color: purple;
+    margin-right: 3px;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+}
+.green{
+    border: 1px solid green;
+    background-color: green;
+    margin-right: 3px;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+}
+.orange{
+    border: 1px solid orange;
+    background-color: orange;
+    margin-right: 3px;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+
+}
+.magenta{
+    border: 1px solid magenta;
+    background-color: magenta;
+    margin-right: 3px;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+}
+.row1{
+    display: flex;
+    margin: 5px;
+}
+.row2{
+    display: flex;
+    margin: 5px;
+}
+.row3{
+    display: flex;
+    margin: 5px;
+}
+.box{
+   
+    background-color: blue;
+    display: flex;
+    width: 335px;
+    height: 200px;
+    
+}
+.cube{
+    border: 1px solid white;
+    width: 100px;
+    height: 90px;
+    background-color: aliceblue;
+    margin: 5px;
+}
+.cub{
+    border: 1px solid white;
+    width: 100px;
+    height: 90px;
+    background-color: aliceblue;
+    margin: 5px;
+}
+.box2{
+    display: flex;
+}
+.cubes{
+    border: 1px solid white;
+    width: 100px;
+    height: 187px;
+    background-color: aliceblue;
+    margin: 5px;
+
+}
+.boxs{
+    border: 1px solid white;
+    width: 100px;
+    height: 90px;
+    background-color: aliceblue;
+    margin: 5px;
+}
+.boxes{
+    border: 1px solid white;
+    width: 100px;
+    height: 90px;
+    background-color: aliceblue;
+    margin: 5px;
+}
+
+
+.column{
+    border:1px solid rgb(90, 85, 85);
+    margin:10px;
+    width: 313px;
+}
+.long{
+    border:1px solid rgb(125, 171, 220);
+    width: 300px;
+    height: 25px;
+    background-color: rgb(125, 171, 220);
+    margin: 5px;
+}
+.long1{
+    border:1px solid white;
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    margin: 5px;
+}
+.long2{
+    border:1px solid rgb(40, 128, 40);
+    width: 300px;
+    height: 80px;
+    background-color: rgb(40, 128, 40);
+    margin: 5px;
+}
+.long3{
+    border:1px solid white;
+    width: 300px;
+    height: 80px;
+    background-color: white;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+.long31{
+    border:1px solid grey;
+    width: 75px;
+    height: 50px;
+    background-color: grey;
+    margin: 7px;
+    margin-top: 15px;
+}
+.long32{
+    border:1px solid grey;
+    width: 75px;
+    height: 50px;
+    background-color: grey;
+    margin: 7px;
+    margin-top: 15px;
+}
+.long4{
+    border:1px solid purple;
+    width: 300px;
+    height: 95px;
+    background-color: purple;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+.long41{
+    border:1px solid white;
+    width: 50px;
+    height: 60px;
+    background-color: white;
+    margin: 7px;
+    margin-top: 15px;
+}
+.long42{
+    border:1px solid white;
+    width: 50px;
+    height: 60px;
+    background-color: white;
+    margin: 7px;
+    margin-top: 15px;
+}
+.long43{
+    border:1px solid white;
+    width: 50px;
+    height: 60px;
+    background-color: white;
+    margin: 7px;
+    margin-top: 15px;
+}
+.long5{
+    border:1px solid white;
+    width: 300px;
+    height: 75px;
+    background-color: white;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+.long51{
+    border:1px solid grey;
+    width: 140px;
+    height: 60px;
+    background-color: grey;
+    margin: 7px;
+    margin-top: 11px;
+}
+.long6{
+    border: 1px solid white;
+    background-color: white;
+    width: 300px;
+    height: 80px;
+    margin: 6px;
+    display: flex;
+}
+.long61{
+    border: 15px solid orange;
+    background-color: white;
+    width: 124px;
+    height: 45px;
+    margin: 3px 5px 3px 3px;
+
+
+}
+.long62{
+    border: 15px solid rgb(227, 97, 10);
+    background-color: white;
+    width: 124px;
+    height: 45px;
+    margin: 3px 5px 3px 3px;
+}
+.long7{
+    border:1px solid rgb(25, 62, 101);
+    width: 300px;
+    height: 25px;
+    background-color: rgb(25, 62, 101);
+    margin: 5px;
+}
+
+.raww{
+    border: 1px solid white;
+    width: 400px;
+}
+.raw{
+    background-color: rgb(63, 170, 240);
+    width: 394px;
+    height: 25px;
+    margin:2px;
+    text-align: center;
+}
+.raaw{
+    display: flex;
+    flex-direction: unset;
+}
+.raw1{
+    width: 150px;
+    margin:2px;
+    display: flex;
+    flex-direction: column;
+}
+.raw11{
+    background-color: rgb(186, 130, 139);
+    width: 150px;
+    height: 80px;
+}
+.raw12{
+    background-color: rgb(79, 202, 79);
+    width: 150px;
+    height: 110px;
+    margin-top: 2px;
+}
+.raw2{
+    width: 250px;
+    margin:2px;
+    display: flex;
+    flex-direction: column;
+}
+.raw21{
+    background-color: orange;
+    width: 240px;
+    height: 140px;
+}
+.raw22{
+    background-color: rgb(70, 66, 66);
+    width: 240px;
+    height: 50px;
+    margin-top: 2px;
+}
+.raw3{
+    margin:3px;
+    display: flex;
+}
+.raw31{
+    background-color: rgb(4, 80, 31);
+    width: 300px;
+    height: 70px;
+}
+.raw32{
+    background-color: rgb(216, 122, 137);
+    width: 120px;
+    height: 70px;
+    margin-left: 2px;
+}
+.raw4{
+    background-color: rgb(240, 134, 29);
+    width: 394px;
+    height:25px;
+    margin:2px;
+}
+
+.mini{
+    background-color: grey;
+    width: 300px;
+    height: 30px;
+    margin: 3px;
+    align-content: center;
+    text-align: center;
+    border-radius: 3px;
+}
+.minni{
+    display: flex;
+}
+.mini1{
+    background-color: grey;
+    width: 60px;
+    height: 200px;
+    margin:3px;
+    text-align: center;
+    align-content: center;
+    border-radius: 3px;
+}
+.minii{
+    display: flex;
+    flex-direction: column;
+}
+.mini2{
+    background-color: rgb(50, 223, 110);
+    width: 170px;
+    height: 20px;
+    margin: 3px;
+    align-content: center;
+    text-align: center;
+    border-radius: 3px;
+}
+.mini21{
+    background-color: rgb(50, 223, 110);
+    width: 170px;
+    height: 20px;
+    margin: 3px;
+    align-content: center;
+    text-align: center;
+    border-radius: 3px;
+}
+.mini22{
+    background-color: grey;
+    width: 170px;
+    height: 32px;
+    margin: 3px;
+    align-content: center;
+    text-align: center;
+    border-radius: 3px;
+}
+.mini23{
+    background-color: grey;
+    width: 170px;
+    height: 70px;
+    margin: 3px;
+    align-content: center;
+    text-align: center;
+    border-radius: 3px;
+}
+.mini24{
+    background-color: grey;
+    width: 170px;
+    height: 32px;
+    margin: 3px;
+    align-content: center;
+    text-align: center;
+    border-radius: 3px;
+}
+.mini3{
+    background-color: grey;
+    width: 60px;
+    height: 200px;
+    margin: 3px;
+    align-content: center;
+    text-align: center;
+    border-radius: 3px;
+}
+.mini4{
+    background-color: grey;
+    width: 300px;
+    height: 30px;
+    margin: 3px;
+    align-content: center;
+    text-align: center;
+    border-radius: 3px;
+}
+/*.card{
+    background-color: rgb(98, 62, 176);
+    border: 1px solid;
+    padding: 50px;
+    width: 615px;
+    height:385px
+}
+.cardss{
+    display: flex;
+    flex-direction: unset;
+}
+.card1{
+    display: flex;
+    flex-direction: unset;
+}
+.card11{
+    background-color: white;
+    width: 150px;
+    height: 190px;
+
+}
+.card12{
+    background-color: white;
+    width: 150px;
+    height: 190px;
+    margin-left: 5px;;
+}
+.card2{
+    display: flex;  
+    flex-direction: unset;
+}
+.card21{
+    background-color: white;
+    width: 150px;
+    height: 190px;
+    margin-left: 5px;
+}
+.card22{
+    background-color: white;
+    width: 150px;
+    height: 190px;
+    margin-left: 5px;
+}
+.cards{
+    display: flex;
+    flex-direction: unset;
+}
+.card3{
+    display: flex;
+    flex-direction: unset;
+}
+.card31{
+    background-color: white;
+    width: 150px;
+    height: 190px;
+    margin-top: 5px;
+}
+.card32{
+    background-color: white;
+    width: 150px;
+    height: 190px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.card4{
+    display: flex;
+}
+.card41{
+    background-color: white;
+    width: 150px;
+    height: 190px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.card42{
+    background-color: white;
+    width: 150px;
+    height: 190px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+*/
+
+/*.cuboid{
+    margin: 10px;
+}
+
+.plane{
+    display: flex;
+    margin:5px; 
+    
+}
+
+.book{
+    border: 1px solid white;
+    width: 150px;
+    height: 60px;
+    background-color: aqua;
+}
+.booka{
+    border: 1px solid white;
+    width: 150px;
+    height: 100px;
+    background-color: rgb(201, 239, 239);
+    margin-right: 3px;
+
+}
+.book1{
+    border: 1px solid white;
+    width: 150px;
+    height: 60px;
+    background-color: rgb(108, 159, 221);
+}
+.bookb{
+    border: 1px solid white;
+    width: 150px;
+    height: 100px;
+    background-color: rgb(201, 239, 239);
+    margin-right: 3px;
+}
+.book2{
+    border: 1px solid white;
+    width: 150px;
+    height: 60px;
+    background-color: rgb(108, 159, 221);
+}
+.bookc{
+    border: 1px solid white;
+    width: 150px;
+    height: 100px;
+    background-color: rgb(201, 239, 239);
+    margin-right: 3px;
+}
+.book3{
+    border: 1px solid white;
+    width: 150px;
+    height: 60px;
+    background-color:pink;
+}
+.bookd{
+    border: 1px solid white;
+    width: 150px;
+    height: 100px;
+    background-color:rgb(201, 239, 239);
+    margin-right: 3px;
+}
+
+.plane1{
+    display: flex;
+    margin: 5px;
+}
+
+.bookk{
+    border: 1px solid white;
+    width: 150px;
+    height: 60px;
+    background-color: aqua;
+}
+.bookaa{
+    border: 1px solid white;
+    width: 150px;
+    height: 100px;
+    background-color: rgb(201, 239, 239);
+    margin-right: 3px;
+}
+.book11{
+    border: 1px solid white;
+    width: 150px;
+    height: 60px;
+    background-color: rgb(108, 159, 221);
+}
+.bookbb{
+    border: 1px solid white;
+    width: 150px;
+    height: 100px;
+    background-color: rgb(201, 239, 239);
+    margin-right: 3px;
+}
+.book22{
+    border: 1px solid white;
+    width: 150px;
+    height: 60px;
+    background-color: rgb(108, 159, 221);
+}
+.bookcc{
+    border: 1px solid white;
+    width: 150px;
+    height: 100px;
+    background-color: rgb(201, 239, 239);
+    margin-right: 3px;
+}
+.book33{
+    border: 1px solid white;
+    width: 150px;
+    height: 60px;
+    background-color:pink;
+}
+.bookdd{
+    border: 1px solid white;
+    width: 150px;
+    height: 100px;
+    background-color:rgb(201, 239, 239);
+    margin-right: 3px;
+}
+*/
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+
+}

@@ -1,0 +1,340 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family:"Poppins", sans-serif;
+    font-size: small;
+}
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    padding: 8px 40px 23px; 
+}
+.line h1{
+    margin:0px;
+    font-weight: 600;
+    color: rgb(60, 63, 82);
+}
+.line i{
+    margin-right: 5px;
+
+}
+.line1 ul{
+    display: flex;
+    list-style-type: none;  
+    margin: 4px;
+    cursor: pointer;
+}
+.card img{
+    width: 50px;
+    position: absolute;
+    right: -19px;
+    top: -20px;
+    border-radius: 50px;
+
+}
+
+.page1{
+    margin: auto;
+    height: 500px;
+    background-color: rgb(117, 117, 219);
+}
+.page_1{
+    display: flex;
+    justify-content: space-around;
+}
+.page11 h1{
+    margin-top: 50px;
+    color: white;
+    margin-left: 22px;
+    font-size: xx-large;
+}
+.page11 ul{
+    margin-top: 25px;
+    color: white;
+    font-size: medium;
+}
+.page_1 img{
+    height: 513px;
+    margin-top: 45px;
+    width: 427px;
+}
+.page11 button{
+    width: 270px;
+    padding: 15px;
+    border-radius: 6px;
+    border: 0px;
+    background-color: orange;
+    color: white;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.page11 span {
+    margin-left: 11px;
+    font-weight: 500;
+    color: white;
+}
+.page11 span i{
+    font-size: x-large;
+    margin-left:-6px;
+}
+.card{
+    width: 190px;
+    position: relative;
+    top: -79px;
+    left: 1134px;
+    border: 1px solid antiquewhite;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 7px 5px;
+    text-align: center;
+}
+
+.two img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    z-index: 4;
+    top: -44px;
+    left: 1318px;
+    border-radius: 50px;
+}
+.card input{
+    padding: 5px;
+    width: 150px;
+}
+.card textarea{
+    padding: 5px;
+    width: 150px;
+}
+
+.card button{
+    background-color: skyblue;
+    color: white;
+    width: 120px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-left: 45px;
+}
+.two_1{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: -183px;
+}
+.two_1 img{
+    height: 433px;
+    text-align: center;
+    width: 364px;
+}
+.two_1 p{
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 26px;
+}
+.three{
+    margin: auto;
+    text-align: center;
+    background-color: #bcacac4f;
+}
+.three p{
+    margin: 0px;
+    padding: 22px;
+    font-size: large;
+}
+.relate{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 4px;
+    position: relative;
+    width: 250px;
+    height: auto;
+}
+.relate i{
+    background-color: #c683c6;
+    border-radius: 50%;
+    position: absolute;
+    top: -35px;
+    left: 92px;
+    padding: 25px;
+    font-size: 22px;
+    color: white;
+}
+.para{
+    padding: 20px;
+    background-color: white;
+}
+.relate1{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 4px;
+    position: relative;
+    width: 250px;
+    height: auto;
+    margin-left:35px ;
+}
+.relate1 i{
+    background-color: #c683c6;
+    border-radius: 50%;
+    position: absolute;
+    top: -35px;
+    left: 92px;
+    padding: 25px;
+    font-size: 22px;
+    color: white;
+}
+.relate2{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 4px;
+    position: relative;
+    width: 250px;
+    height: auto;
+    margin-left: 35px;
+}
+.relate2 i{
+    background-color: #c683c6;
+    border-radius: 50%;
+    position: absolute;
+    top: -35px;
+    left: 92px;
+    padding: 25px;
+    font-size: 22px;
+    color: white;
+}
+.icon ul{
+    list-style-type: none; 
+    display: flex; 
+    margin-top: -10px;
+    font-size:xx-large; 
+    color: grey;
+    margin-left: -40px;;
+}
+.percent{
+    display: flex; 
+    justify-content: center;
+}
+.percent h1{
+    margin: 0px;
+    font-size: xx-large;
+}
+.phone img{
+    width: 452px;
+    height: 480px;
+    margin: 17px 0px;
+}
+.pole{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin-bottom: 9px;
+}
+.pole1{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+.pole2{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin-bottom: 9px;
+}
+.pole3{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+
+.pole img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: -106px;
+    top: 25px;
+}
+.pole p{
+    margin: 0px;
+    position: relative;
+    top: -17px;
+    left: -53px;
+}
+.pole1 p{
+    margin: 0px;
+    position: relative;
+    top: -17px;
+    left: -53px;
+}
+.pole2 p{
+    margin: 0px;
+    position: relative;
+    top: -17px;
+    left: -53px;
+}
+.pole3 p{
+    margin: 0px;
+    position: relative;
+    top: -17px;
+    left: -53px;
+}
+.pole1 img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: -106px;
+    top: 25px;
+}
+.pole2 img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: -106px;
+    top: 25px;
+}
+.pole3 img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: -106px;
+    top: 25px;
+}
+.pen{
+    margin: 37px;
+    text-align: justify;
+}
+.box p{
+    font-size: x-large;
+    font-weight: bold;
+}
+.box1 img{
+    margin-top: 40px;
+    height: 500px;
+    width: 900px;
+}
+.image{
+    background-image: url(../images/background.jpg);
+    width: 100%;
+    height: 400px;
+}
+.logo img{
+    width: 80px;
+    height: 70px;
+}
+.chart img{
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+}
+.que p{
+    font-weight: bold;
+}
+.ques p{
+    font-weight: bold;
+}

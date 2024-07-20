@@ -1,0 +1,136 @@
+
+table, th, td {
+    border: 5px solid black;
+    border-collapse: collapse;
+    padding: 4px;
+}
+.one_1{
+    text-align: center;
+    width: 65px;
+    height: 30px;
+}
+.one_2{
+    text-align: center;
+    width: 35px;
+    height: 20px;
+}
+.one_3{
+    text-align: center;
+    width: 45px;
+    height: 10px;
+}
+.one_4{
+    text-align: center;
+    width: 32px;
+    height: 40px;
+}
+.one_5{
+    text-align: center;
+    width: 45px;
+    height: 10px;
+}
+.two_1{
+    text-align: center;
+    width: 70px;
+    height: 10px;
+}
+.two_4{
+    text-align: center;
+    width: 70px;
+    height: 10px;
+}
+.three_1{
+    text-align: center;
+    width: 45px;
+    height: 10px;
+}
+.three_2{
+    text-align: center;
+    width: 45px;
+    height: 10px;
+}
+.three_3{
+    text-align: center;
+    width: 45px;
+    height: 10px;
+}
+.four_1{
+    text-align: center;
+    width: 45px;
+    height: 10px;
+}
+.four_2{
+    text-align: center;
+    width: 45px;
+    height: 10px;
+}
+.four_3{
+    text-align: center;
+    width: 45px;
+    height: 10px;
+}
+.five_1{
+    text-align: center;
+    width: 45px;
+    height: 10px;
+}
+.five_2{
+    text-align: center;
+    width: 45px;
+    height: 10px;
+}
+.five_4{
+    text-align: center;
+    width: 45px;
+    height: 60px;
+}
+.six_1{
+    text-align: center;
+    width: 45px;
+    height: 10px;
+}
+.six_2{
+    text-align: center;
+    width: 45px;
+    height: 10px;
+}
+.six_3{
+    text-align: center;
+    width: 45px;
+    height: 10px;
+}
+.six_4{
+    text-align: center;
+    width: 45px;
+    height: 10px;
+}
+.six_5{
+    text-align: center;
+    width: 45px;
+    height: 10px;
+}
+.seven_1{
+    text-align: center;
+    width: 45px;
+    height: 6%;
+}
+.seven_2{
+    text-align: center;
+    width: 45px;
+    height: 10px;
+}
+.seven_3{
+    text-align: center;
+    width: 45px;
+    height: 10px;
+}
+.seven_4{
+    text-align: center;
+    width: 45px;
+    height: 10px;
+}
+.seven_5{
+    text-align: center;
+    width: 45px;
+    height: 10px;
+}

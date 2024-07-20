@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    margin: 0px;
+    background-color: rgb(18 18 75);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+.logo{
+    background-color: rgb(18 18 75);
+    width: 100%;
+}
+.navbar-brand img{
+    width: 50%;
+}
+.nav-bar{
+    justify-content: space-evenly;
+}
+.nav-bar ul li{
+    padding: 0px 17px;
+}
+.nav-bar .btn{
+    margin: 0px 14px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+}
+.nav-bar .btn:hover{
+    background-color: rgb(238, 138, 37);
+    border: none;
+}
+.home{
+    background-color: rgb(3, 3, 60);
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    line-height: 30px;
+}
+.home h3{
+    font-size: 45px;
+}
+.home span{
+    color: rgb(254, 149, 44);
+}
+.home p{
+    color: grey;
+}
+.home button{
+    border: none;
+    background-color: rgb(238, 138, 37);
+    font-weight: 500;
+    padding: 8px;
+    border-radius:8px;
+}
+.instant-money{
+    background-image: url(../images/Interviewer\ Webpage\ Hero\ Section.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 130px 0px;
+}
+.instant-money img{
+    width: 36%;
+    object-fit: contain;
+}
+.calen-content{
+    display: flex;
+    align-items: center;
+}
+.flexible-bg{
+    padding: 25px 0px;
+    .row{
+        display: flex;
+        align-items: center;
+    }
+}
+.flexible-bg p{
+    color: white;
+}
+.flexible h2{
+    font-size: 55px;
+}
+.calendar{
+    text-align: end;
+    img{
+        width: 65%;
+        text-align: end;
+    }
+}
+.account-details{
+    background-image: url(../images/account-detailsbg.png);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 118px 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.account-details h2{
+    font-size: 45px;
+    font-weight: 300;
+    margin-bottom: 31px;
+}
+.sameday{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.account-block{
+    background-color: rgb(250,248,252);
+    margin: auto;
+}
+.acc-detail p{
+    background-color: rgb(3, 3, 60);
+    text-align: left;
+    padding: 5px;
+}
+.account-block img{
+    width: 40px;
+    margin-right: 20px;
+}
+.girl-row{
+    justify-content: center;
+    align-items: center;
+}
+.girl img{
+    width: 83%;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 15px;
+}
+.girl-bg img{
+    width: 89%;
+    position: relative;
+    top: -16px;
+    left: 13px;
+}
+.acdetails-card{
+    background: linear-gradient(0deg, rgba(238,239,239,1) 5%, rgba(247,130,14,1) 100%);
+    text-align: justify;
+    padding: 0px 20px;
+    padding-top: 30px;
+    width: 70%;
+    border-radius: 25px 25px 0px 0px;
+}
+.acdetails-card p{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.acdetails-card h1{
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+.acdetails-card h5{
+    font-size: 12px;
+    font-weight: 500;
+    span{
+        font-weight: 400;
+    }
+}
+.mini-card{
+    background-color: white;
+    color: black;
+    padding: 12px;
+    margin: 5px 0px;
+    border-radius: 15px;
+}
+.mini-card2{
+    background-color: white;
+    color: black;
+    padding: 12px;
+    margin-top: 5px;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+.heading p{
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+.heading i{
+    color: rgb(255, 146, 69);
+}
+.mini-card span{
+    color: grey;
+    font-size: 13px;
+}
+.search{
+    background-color: rgb(246 244 244);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px;
+    border-radius: 8px;
+}
+.search h5{
+    margin: 0px;
+}
+.color{
+    margin: 5px 0px;
+    display: flex;
+}
+.color1{
+    background-color: orange;
+    padding: 5px;
+    width: 35%;
+    border-radius: 7px 0px 0px 7px;
+}
+.color2{
+    background-color: rgb(223, 223, 223);
+    padding: 5px;
+    width: 65%;
+    border-radius: 0px 7px 7px 0px;
+}
+.mic-section{
+    padding: 25px 0px;
+}
+.mic-content h3{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+.mic-content p{
+    font-size: 15px;    
+    color: white;
+    margin-top: 25px;
+}
+.mic-content ul{
+    color: white;
+    list-style-type: none;
+    margin: 0px;
+}
+.mic-voice{
+    width: 278px;
+    margin: auto;
+}
+.mic-voice img{
+    width: 100%;
+}
+.mic-content h1{
+    font-size: 30px;
+    span{
+        font-size: 50px;
+    }
+}
+.mic-content li{
+    padding: 10px 0px;
+}
+.mic-content li p{
+    margin: 6px 0px;
+    span{
+        background-color: rgb(255, 146, 69);
+        color: white;
+    }
+}
+.cards{
+    padding: 10px 0px;
+}
+.card-head{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.card-head span{
+    font-size: 20px;
+    color: white;
+}
+.card-head h1{
+    color: rgb(255, 146, 69);
+    font-size: 72px;
+    font-weight: 400;
+}
+.card-head h2{
+    color: white;
+    font-size: 72px;
+    padding-left: 93px;
+    margin-left: 69px;
+    font-weight: 400;
+}
+.sub-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row1{
+    padding: 30px 0px;
+}
+.card{
+    padding: 20px 12px;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    background-color: #eeeeee;
+    border-radius: 16px;
+    width: 87%;
+    margin: auto;
+}
+.img-div{
+    width: 130px;
+    height: 130px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+}
+.card h3{
+    font-size: 22px;
+    font-weight: 400;
+}
+.card p{
+    color: grey;
+    font-size: 14px;
+}
+.exp{
+    width: 250px;
+}
+.register{
+    background-color: white;
+    padding: 30px;
+    border-radius: 35px;
+}
+.register h1{
+    font-weight: 400;
+}
+.register p{
+    font-size: 14px;
+    font-weight: 400
+}
+.register button{
+    border: 0px;
+    background: linear-gradient(90deg, rgba(240,122,25,1) 6%, rgba(232,149,61,1) 68%);
+    color: white;
+}
+.login-row{
+    align-items: center;
+}
+.lorem{
+    position: relative;
+}
+.lorem p{
+    position: absolute;
+    color: rgb(255, 146, 69);
+    background-color: white;
+    border-radius: 15px;
+    padding: 4px;
+    font-size: 13px;
+    top: -13px;
+    left: 50px;
+}
+.login-details ul{
+    padding: 0px;
+    list-style-type: none;
+    margin: 0px;
+}
+.login-details li{
+    font-size: 30px;
+    margin-bottom: 19px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    color: #404040;
+    font-weight: 500;
+}
+.login-details i{
+    background: linear-gradient(90deg, rgba(240,122,25,1) 6%, rgba(232,149,61,1) 68%);
+    border-radius: 50%;
+    color: white;
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    margin-right: 9px;
+}
+.registration-block{
+    padding: 20px 0px;
+}

@@ -1,0 +1,251 @@
+@media (max-width:887px) {
+    .map i{
+        bottom: 91px;
+    }
+    .phone i{
+        top: 20px;
+    }
+    .phone-1 i{
+        bottom: 72px;
+    }
+}
+@media (max-width:887px){
+    .phone-1 i{
+        bottom: 54px;
+    }
+}
+@media (max-width:800px){
+    .cat-1 p {
+        position: relative;
+        left: -28px ;
+        font-size: 12px;
+    }
+    
+}
+@media (max-width:779px){
+    .phone-1 i{
+        bottom: 72px;
+    }
+}
+@media (max-width:762px){
+    .phone-1 i{
+        bottom: 90px;
+    }
+}
+
+@media (max-width:735px){
+    .foot-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .foot-11{
+        justify-content: space-around;
+    }
+    .foot-12{
+        justify-content: space-evenly;
+    }
+    .address{
+        left: 17px;
+    }
+    .contact{
+        left: 60px;
+    }
+    .contact h5{
+        font-size: 16px;
+    }
+    .phone i{
+        right: 100%;
+        bottom: 66px;
+    }
+    .phone-1 i{
+        right: 100%;
+        bottom: 60px;
+    }
+
+}
+@media (max-width:683px){
+    .cat-1{
+        padding: 12px 4px;
+        margin: 0px 6px;
+    }
+    .cat-1 img{
+        width: 34%;
+    }
+    .cat-1 p{
+        font-size: 8px;
+        padding: 5px;
+        width:100px;
+        left: -13px;
+    }
+}
+@media (max-width:599px) {
+    .about-car .bg-white{
+        width: 200px;
+        height: 200px;
+    }
+    .about-car img{
+        width: 60%;
+    }
+    .about-car li{
+        font-size: 12px;
+    }
+}
+@media (max-width:562px) {
+    .about-car li{
+        font-size: 9px;
+    }
+}
+@media (max-width:525px){
+    .brand-background  li{
+        font-size: 12px;
+    }
+    .cat-1{
+        padding: 12px 4px;
+        margin: 0px 4px;
+    }
+    .cat-1 img{
+        width: 30%;
+    }
+    .cat-1 p{
+        font-size: 8px;
+        padding: 3px;
+        width: 80px;
+        left: -8px;
+    }
+    .about-car li{
+        font-size: 9px;
+        padding: 3px;
+    }
+    .media li img{
+        width: 25px;
+    }
+    .foot-1{
+        font-size: 12px;
+    }
+    .foot-1 h5{
+        font-size: 12px;
+    }
+    .map i{
+        bottom: 40px;
+    }
+    .phone i{
+        top: 18px;
+    }
+    .phone-1 i{
+        bottom: 35px;
+    }
+}
+@media (max-width:499px){
+    .address{
+        left: 22px;
+    }
+    .contact{
+        left:27px;
+    }
+}
+@media (max-width:438px){
+    .select-car h1 {
+        font-size: 20px;
+    }
+    .select select{
+        font-size: 12px;
+        width: 300px;
+    }
+    .select button{
+        font-size: 12px;
+        width: 100px;
+    }
+    .exclusive-pro h3{
+        font-size: 20px;
+        padding: 10px;
+        margin: 20px 0px;
+        margin-left: 40px;
+    }
+    .explore h4{
+        font-size: 20px;
+    }
+    .customize h3{
+        font-size: 20px;
+    }
+    .popular h3{
+        margin: 9px 5px;
+    }
+    .product p{
+        font-size: 11px;
+    }
+    .about-car .bg-white{
+        width: 200px;
+        height: 200px;
+    }
+    .about-car img{
+        width: 130px;
+    }
+    .about-car button{
+        width: 90px;
+        font-size: 12px;
+    }
+    .about-car li{
+        font-size: 10px;
+        padding: 2px;
+    }
+    .topbrands h4{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .phone-1 i{
+        bottom: 34px;
+    }
+}
+@media (max-width:405px){
+    .brand-background li{
+        font-size: 10px;
+    }
+    .cat-1 img{
+        width: 25%;
+    }
+    .cat-1{
+        margin: 0px 2px;
+        padding:12px 2px;
+    }
+    .cat-1 p{
+        width: 60px;
+        font-size: 7px;
+        left: -5px;
+    }
+    .alloy{
+        height: 160px;
+        margin: 4px 0px;
+    }
+}
+@media (max-width:354px){
+    .head-1 img{
+        width: 120px;
+    }
+    .search-bar li i{
+        font-size: 12px;
+    }
+}
+@media (max-width:350px) {
+    .brand-background ul li{
+        padding: 0px 5px;
+    }
+    .brand-background i{
+        font-size: 12px;
+        display: flex;
+    }
+    .bg{
+        background-position: center;
+        height: 200px;
+    }
+}
+@media (max-width:334px) {  
+    .brand-background ul li{
+        padding: 0px 5px;
+        font-size: 9px;
+    }
+    .brand-background i{
+        font-size: 9px;
+        display: flex;
+    }
+
+}
